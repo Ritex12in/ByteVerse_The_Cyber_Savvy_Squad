@@ -4,17 +4,18 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.trashtracker.R
-import com.example.trashtracker.databinding.ActivitySignInBinding
+import com.example.trashtracker.databinding.ActivitySignUpBinding
 
-class SignInActivity : AppCompatActivity() {
-    private var binding:ActivitySignInBinding? = null
+class SignUpActivity : AppCompatActivity() {
+
+    private var binding:ActivitySignUpBinding? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivitySignInBinding.inflate(layoutInflater)
+        binding = ActivitySignUpBinding.inflate(layoutInflater)
         setContentView(binding?.root)
 
-        binding?.tvRegister?.setOnClickListener {
-            startActivity(Intent(this,SignUpActivity::class.java))
+        binding?.tvLoginPage?.setOnClickListener {
+            startActivity(Intent(this,SignInActivity::class.java))
             finish()
         }
     }
