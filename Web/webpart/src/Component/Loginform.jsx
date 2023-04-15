@@ -33,11 +33,11 @@ import {FcLock,FcBusinessContact} from "react-icons/fc";
       <form onSubmit={this.HandleSubmit}>
       <div className="form">
       <h1 >LOGIN </h1>
-      <h3>Hey {this.state.email}</h3>
+     
       <div className="form-input">
       <div className="form-label">
       <label htmlfor="name">Username: </label></div>
-      <FcBusinessContact/>
+      <FcBusinessContact className='user'/>
         <input type="text" id="email" name="username" onChange={this.HandleEmail} required/>
         </div>
         <div className="form-input">
@@ -53,7 +53,11 @@ import {FcLock,FcBusinessContact} from "react-icons/fc";
         
         </div>
        
-
+ <div className="google">
+ <div className="Login_with">
+  LOGIN WITH <img  className="google_icon" src="icons8-google-48.png"/>
+  </div>
+ </div>
       </div>
       
         </form>
