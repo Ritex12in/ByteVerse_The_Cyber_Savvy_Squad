@@ -11,11 +11,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TrashTracker"
         tools:targetApi="31">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_api_key"/>
+
         <activity
-            android:name=".SettingsActivity"
+            android:name=".activities.SettingsActivity"
             android:exported="false" />
         <activity
-            android:name=".MapActivity"
+            android:name=".activities.MapActivity"
             android:exported="false" />
         <activity
             android:name=".activities.BaseActivity"
