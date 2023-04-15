@@ -12,6 +12,9 @@
         android:theme="@style/Theme.TrashTracker"
         tools:targetApi="31">
         <activity
+            android:name=".activities.ForgetPasswordActivity"
+            android:exported="false" />
+        <activity
             android:name=".activities.SignUpActivity"
             android:exported="false" />
         <activity
