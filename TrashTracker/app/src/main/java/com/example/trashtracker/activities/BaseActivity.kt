@@ -7,7 +7,7 @@ import android.os.Bundle
 import android.widget.Toast
 import com.example.trashtracker.R
 
-class BaseActivity : AppCompatActivity() {
+open class BaseActivity : AppCompatActivity() {
     private lateinit var pb:Dialog
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
