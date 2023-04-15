@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+
+nav{
+    height:10vh;
+    width:100vw;
+    display:flex;
+    flex-direction: row;
+   
+}
+.logo{
+    height:100%;
+    width:10vw;
+    margin-left:10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Links{
+    height:100%;
+    width:88vw;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.left{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.right{
+    display:flex;
+    align-items: center;
+    margin-right: 20px;
+    font-size: 2rem;
+}
+.home,.About,.contact,.faq{
+    box-sizing: content-box;
+    font-size: 2rem;
+    padding: 20px;
+ 
+}
+
+.faq a{
+    text-decoration: none;
+}
+#iconbar{
+    font-size:2rem;
+    position:absolute;
+    right: 20px;
+    top:20px;
+    opacity:0;
+    visibility: hidden;
+}
+#iconbar:hover{
+ color:orange;
+}
+@media (max-width:990px)
+{nav{
+    width:100%;
+    display:block;
+}
+    .logo{
+        width:100%;
+    }
+    .Links{
+        width:100%;
+        text-align:left;
+        justify-content:left;
+    }
+    
+    .Links{
+        opacity: 0;
+        visibility: hidden;
+    }
+    #iconbar{
+        opacity: 1;
+        visibility: visible;
+    }
+      .responsive{
+        width: 100%!important;
+        height: 89vh!important;
+        background-color: black;
+        position: relative;
+        z-index: 1000;
+       
+        
+    }
+    .responsive{
+        opacity: 1;
+        visibility: visible;
+       
+    }
+ .responsive{
+    flex:none;
+    display: block;
+    text-align: center;
+ }
+ .responsive .left{
+    flex:none;
+    display: block;
+ }
+.home:hover, .right:hover,.About:hover,.contact:hover,.faq:hover{
+    background-color: rgb(235, 236, 230);
+    text-shadow: 3px 4px 1px black;
+ }
+ .responsive .right{
+    flex:none;
+    display:block;
+    padding:20px;
+   
+ }
+.mylink{
+    color: rgb(251, 251, 251);
+}
+ 
+
+
+
+    
+
+    
+ 
+   
+}
+
+
+
+
+

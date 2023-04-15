@@ -3,16 +3,18 @@ package com.example.trashtracker.activities
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.cardview.widget.CardView
 import com.example.trashtracker.R
+import com.example.trashtracker.databinding.ActivitySignUpBinding
 
-class GetStartedActivity : AppCompatActivity() {
+class SignUpActivity : AppCompatActivity() {
+
+    private var binding:ActivitySignUpBinding? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_get_started)
+        binding = ActivitySignUpBinding.inflate(layoutInflater)
+        setContentView(binding?.root)
 
-        val getStartBtn: CardView = findViewById(R.id.cvGetStarted)
-        getStartBtn.setOnClickListener {
+        binding?.tvLoginPage?.setOnClickListener {
             startActivity(Intent(this,SignInActivity::class.java))
             finish()
         }
