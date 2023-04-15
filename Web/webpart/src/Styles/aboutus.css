@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+}
+.About_page{
+    height:130vh;
+    width:100vw;
+background-color: rgb(255, 255, 255);
+}
+h1{
+    text-align: center;
+    text-decoration: none;
+
+}
+.wriiten_About_us{
+    height:50vh;
+    width:45vw;
+}
+.wriiten_About_us section{
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.Group_image{
+    height:50vh;
+    width:50vw;
+    /* text-align: center; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height:45vh;
+    width:34vw;
+   margin-left:20px;
+
+}
+.About_us_section{
+    display:flex;
+    flex-direction: row;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.Memeber{
+    height:70vh;
+    width:100vw;
+     
+}
+.Member{
+    height:5vh;
+    width:100%;
+   display: flex;
+   justify-content: center;
+   font-size: 3rem;
+   font-weight:900 ;
+}
+.Member_details{
+    height:65vh;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
