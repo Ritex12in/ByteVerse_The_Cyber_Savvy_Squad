@@ -13,12 +13,17 @@
    }
    .places-container {
     position: absolute;
-    top: 91px;
-    left:32%;
+    top: 12px;
+    left:45%;
+    
+    width:30%;
+    padding-top: 20px;
     transform: translate(-50%);
     z-index: 10;
     background-color: aliceblue;
     width: 215px;
+    cursor: pointer;
+    text-align: center;
   }
   .combobox-input{
     width: 100%;
@@ -85,6 +90,31 @@
       
           
        }
+       @media(max-width:1450px)
+       {
+        .places-container {
+          
+            top: 80px;
+            left:17%;
+            width:30%;
+            padding-top: 8px;
+        
+          }
+       }
+       
+   @media(max-width:1070px)
+   {
+    .places-container {
+      
+        top: 80px;
+       
+        width:40%;
+        padding-top: 8px;
+        margin-left:20px ;
+        padding: 20px 20px, 0,20px;
+    
+      }
+   }
        @media (max-width:830px)
        {
            .Main{
@@ -129,19 +159,20 @@
            .Right_Lower_half{
            
                height:50vh;
-               width:100%; 
-              
-              
+               width:100%;       
            }
-   
-   
-   
-           
-   
-   
+
        }
-   
-   
-   
-   
+      
+       
+        .places-container {
+        margin-left: 20px;
+            width:40%;
+           
+        
+          }
+
    }
+
+
+  
