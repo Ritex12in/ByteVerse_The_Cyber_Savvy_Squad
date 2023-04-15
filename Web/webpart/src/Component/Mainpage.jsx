@@ -1,14 +1,13 @@
 import React, { Component } from 'react'
 import '../Styles/Mainpage.css'
+import GetMap from './Map'
  class Mainpage extends Component {
+
   render() {
     return (
       <>
-      <div className="Main">
-        <div className="left_div">
-
-        </div>
-        
+      < div className="Main">
+          <GetMap/>        
         <div className="upper"></div>
         <div className="Lower">
           <div className="Left_Lower_half"></div>

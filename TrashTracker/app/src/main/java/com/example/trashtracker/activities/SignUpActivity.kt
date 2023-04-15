@@ -8,6 +8,8 @@ import android.util.Patterns
 import android.widget.Toast
 import com.example.trashtracker.R
 import com.example.trashtracker.databinding.ActivitySignUpBinding
+import com.example.trashtracker.firebase.FireStoreClass
+import com.example.trashtracker.models.User
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.auth.ktx.auth
@@ -49,6 +51,11 @@ class SignUpActivity : BaseActivity() {
                 .addOnCompleteListener(this){task ->
                     if (task.isSuccessful)
                     {
+                        val rndInt = (1..12).random()
+                        val image = "profilephoto/profilepic$rndInt"
+                        val firebaseUser: FirebaseUser? = task.result.user
+                        val userInfo = User(firebaseUser?.uid,name,firebaseUser?.email,image)
+                        FireStoreClass().registerUser(userInfo)
                         Toast.makeText(this,"Registration Successful", Toast.LENGTH_SHORT).show()
                         startActivity(Intent(this,MainActivity::class.java))
                         finish()

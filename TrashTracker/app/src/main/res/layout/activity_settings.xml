@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.MainActivity">
+    tools:context=".activities.SettingsActivity">
 
     <LinearLayout
         android:id="@+id/bottomNaviBar"
@@ -23,7 +23,7 @@
             android:layout_width="@dimen/navigation_bar_icon_size"
             android:layout_height="@dimen/navigation_bar_icon_size"
             android:src="@drawable/baseline_dashboard_24"
-            app:tint="@color/blue_4" />
+             />
         <ImageView
             android:id="@+id/btnMap"
             android:layout_width="@dimen/navigation_bar_icon_size"
@@ -37,6 +37,7 @@
             android:layout_width="@dimen/navigation_bar_icon_size"
             android:layout_height="@dimen/navigation_bar_icon_size"
             android:src="@drawable/baseline_settings_24"
+            app:tint="@color/blue_4"
             />
     </LinearLayout>
 
