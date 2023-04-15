@@ -29,7 +29,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_margin="10dp"
-                android:src="@drawable/baseline_arrow_back_ios_new_24" />
+                android:src="@drawable/baseline_arrow_back_ios_new_24"
+                android:contentDescription="Profile Pic" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -59,13 +60,13 @@
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginStart="@dimen/start_end_margin"
+        android:layout_marginEnd="@dimen/start_end_margin"
         android:layout_marginTop="30dp"
-        app:boxCornerRadiusBottomEnd="20dp"
-        app:boxCornerRadiusBottomStart="20dp"
-        app:boxCornerRadiusTopEnd="20dp"
-        app:boxCornerRadiusTopStart="20dp"
+        app:boxCornerRadiusBottomEnd="@dimen/til_radius"
+        app:boxCornerRadiusBottomStart="@dimen/til_radius"
+        app:boxCornerRadiusTopEnd="@dimen/til_radius"
+        app:boxCornerRadiusTopStart="@dimen/til_radius"
         app:boxStrokeWidth="2dp"
         app:boxBackgroundColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
@@ -78,7 +79,7 @@
             android:layout_height="wrap_content"
             android:hint="Name"
             android:inputType="text"
-            android:textSize="22sp" />
+            android:textSize="@dimen/et_text_size" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <androidx.appcompat.widget.AppCompatButton

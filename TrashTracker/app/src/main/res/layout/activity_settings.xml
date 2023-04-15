@@ -106,7 +106,7 @@
                 android:layout_marginEnd="40dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
-                android:text="Change PassWord"
+                android:text="Change Password"
                 android:textSize="22sp"
                 android:textStyle="bold"
                 android:textColor="@color/black"
