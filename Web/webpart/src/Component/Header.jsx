@@ -3,7 +3,21 @@ import '../Styles/Header.css'
 import {Link} from 'react-router-dom'
 import {FcMenu} from 'react-icons/fc'
  class Header extends Component {
+  constructor(props) {
+    super(props)
+  
+    this.state = {
+       val:false
+    }
+  }
+  
   Responsive_menu=()=>{
+    this.setState({
+     val:true
+    })
+ 
+  
+     
     var e=document.getElementById('small_links');
     if(e.className==='Links')
     {
@@ -39,13 +53,13 @@ import {FcMenu} from 'react-icons/fc'
         </div>
         </div>
         <div className="right">
-           <Link className="mylink"  style={{textDecoration: 'none'}} to='/login'>LOGIN</Link>
+           <Link className="mylink login"  style={{textDecoration: 'none'}} to='/login'>LOGIN</Link>
         </div>
        </div>
      
         </nav>
         <Link to="#" id="iconbar" onClick={this.Responsive_menu}>
-        <FcMenu/>
+      <img src="icons8-hamburger-menu-64.png"/>
        </Link>
       </div>
     )
