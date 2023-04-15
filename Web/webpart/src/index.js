@@ -8,9 +8,9 @@ import { FirebaseProvider } from './context/firebase';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-      <FirebaseProvider>
+      {/* <FirebaseProvider> */}
         <App />
-      </FirebaseProvider>
+      {/* </FirebaseProvider> */}
   </React.StrictMode>
 );
 

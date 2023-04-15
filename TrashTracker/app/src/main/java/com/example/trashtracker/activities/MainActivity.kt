@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.trashtracker.R
 import com.example.trashtracker.databinding.ActivityMainBinding
+import com.example.trashtracker.utils.GetLocation
 
 class MainActivity : AppCompatActivity() {
     private var binding:ActivityMainBinding? = null
@@ -12,9 +13,14 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding?.root)
+        val currentLocation = GetLocation(this)
 
         binding?.btnMap?.setOnClickListener {
             val intent = Intent(this, MapActivity::class.java)
+            val xLatitude = currentLocation.getCurrentLatLng().latitude
+            val xLongitude = currentLocation.getCurrentLatLng().longitude
+            intent.putExtra("latitude",xLatitude)
+            intent.putExtra("longitude",xLongitude)
             startActivity(intent)
         }
 

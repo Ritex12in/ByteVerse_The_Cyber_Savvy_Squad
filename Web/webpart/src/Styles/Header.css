@@ -9,6 +9,8 @@ nav{
     width:100vw;
     display:flex;
     flex-direction: row;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    margin-bottom: 10px;
    
 }
 .logo{
@@ -18,10 +20,12 @@ nav{
     display:flex;
     align-items: center;
     justify-content: center;
+    
 }
 .logo img{
     height:90%;
     width:90%;
+    background-color: #bfcdda;
     
 }
 
@@ -60,14 +64,26 @@ nav{
     top:20px;
     opacity:0;
     visibility: hidden;
+   height: 10vh;
+   width:10vw;
+}
+#iconbar img{
+    height:8vh;
+    width:8vw;
 }
 #iconbar:hover{
  color:orange;
 }
 .mylink{
-    font-size:12px;
+    font-size:20px;
   
 }
+
+
+.login{
+  text-align: center;  
+}
+
 @media (max-width:990px)
 {nav{
     width:100%;
@@ -82,7 +98,7 @@ nav{
         text-align:left;
         justify-content:left;
     }
-    
+
     .Links{
         opacity: 0;
         visibility: hidden;
@@ -125,6 +141,7 @@ nav{
     padding:20px;
    
  }
+ 
 .mylink{
     color: rgb(251, 251, 251);
 }
