@@ -117,9 +117,7 @@ class SignInActivity : BaseActivity() {
                 val id = FireStoreClass().getCurrentUserId()
                 val name = account.displayName.toString()
                 val email = account.email.toString()
-                val rndInt = (1..12).random()
-                val image = "profilephoto/profilepic$rndInt"
-                val userInfo = User(id, name, email, image)
+                val userInfo = User(id, name, email)
                 FireStoreClass().registerUser(userInfo)
                 startActivity(Intent(this,MainActivity::class.java))
                 finish()

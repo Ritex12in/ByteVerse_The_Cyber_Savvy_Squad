@@ -7,7 +7,7 @@ data class User(
     val id:String? = "",
     val name:String? = "",
     val email:String? = "",
-    val image:String? = "",
+    val image:String? = "profilephoto/profilepic1",
     val contribution: Long = 0
 ) : Parcelable {
     constructor(parcel: Parcel) : this(
