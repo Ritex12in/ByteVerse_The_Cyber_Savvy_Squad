@@ -11,6 +11,19 @@
        border-radius: 30px;
        margin-left: 10px;
    }
+   .places-container {
+    position: absolute;
+    top: 91px;
+    left:32%;
+    transform: translate(-50%);
+    z-index: 10;
+    background-color: aliceblue;
+    width: 215px;
+  }
+  .combobox-input{
+    width: 100%;
+    padding: 0.5rem;
+  }
    .upper{
        background-color: rgb(127, 138, 255);
        height:38vh;
