@@ -1,0 +1,4303 @@
+[{
+  "district": "Anantapur",
+  "hq": "Anantapur",
+  "density": 213.0,
+  "lat": 14.68365,
+  "lon": 77.58146
+}, {
+  "district": "Chittoor",
+  "hq": "Chittoor",
+  "density": 275.0,
+  "lat": 13.20588,
+  "lon": 79.08805
+}, {
+  "district": "East Godavari",
+  "hq": "Kakinada",
+  "density": 477.0,
+  "lat": 16.96423,
+  "lon": 82.23792
+}, {
+  "district": "Guntur",
+  "hq": "Guntur",
+  "density": 429.0,
+  "lat": 16.29526,
+  "lon": 80.44276
+}, {
+  "district": "Kadapa",
+  "hq": "Kadapa",
+  "density": 188.0,
+  "lat": 14.46734,
+  "lon": 78.85423
+}, {
+  "district": "Krishna",
+  "hq": "Machilipatnam",
+  "density": 519.0,
+  "lat": 16.17877,
+  "lon": 81.13229
+}, {
+  "district": "Kurnool",
+  "hq": "Kurnool",
+  "density": 229.0,
+  "lat": 15.82547,
+  "lon": 78.03012
+}, {
+  "district": "Prakasam",
+  "hq": "Ongole",
+  "density": 192.0,
+  "lat": 15.50599,
+  "lon": 80.04994
+}, {
+  "district": "Sri Potti Sriramulu Nellore",
+  "hq": "Nellore",
+  "density": 227.0,
+  "lat": 14.43958,
+  "lon": 79.99354
+}, {
+  "district": "Srikakulam",
+  "hq": "Srikakulam",
+  "density": 462.0,
+  "lat": 18.30725,
+  "lon": 83.89436
+}, {
+  "district": "Visakhapatnam",
+  "hq": "Visakhapatnam",
+  "density": 384.0,
+  "lat": 17.71984,
+  "lon": 83.26278
+}, {
+  "district": "Vizianagaram",
+  "hq": "Vizianagaram",
+  "density": 358.0,
+  "lat": 18.1184,
+  "lon": 83.41799
+}, {
+  "district": "West Godavari",
+  "hq": "Eluru",
+  "density": 508.0,
+  "lat": 16.71825,
+  "lon": 81.12084
+}, {
+  "district": "Anjaw",
+  "hq": "Hawai",
+  "density": 3.0,
+  "lat": 27.88515,
+  "lon": 96.81378
+}, {
+  "district": "Changlang",
+  "hq": "Changlang",
+  "density": 32.0,
+  "lat": 27.13599,
+  "lon": 95.73623
+}, {
+  "district": "East Kameng",
+  "hq": "Seppa",
+  "density": 19.0,
+  "lat": 57.94231,
+  "lon": 27.20715
+}, {
+  "district": "East Siang",
+  "hq": "Pasighat",
+  "density": 27.0,
+  "lat": 28.04776,
+  "lon": 95.33854
+}, {
+  "district": "Kamle",
+  "hq": "Raga",
+  "density": 111.0,
+  "lat": 22.9134,
+  "lon": 69.78088
+}, {
+  "district": "Kra Daadi",
+  "hq": "Jamin",
+  "density": 0.0,
+  "lat": 44.67953,
+  "lon": 0.00863
+}, {
+  "district": "Lepa Rada",
+  "hq": "Basar",
+  "density": 0.0,
+  "lat": 18.87713,
+  "lon": 77.94987
+}, {
+  "district": "Lohit",
+  "hq": "Tezu",
+  "density": 61.0,
+  "lat": 27.92732,
+  "lon": 96.15466
+}, {
+  "district": "Longding",
+  "hq": "Longding",
+  "density": 50.0,
+  "lat": 26.88892,
+  "lon": 95.32141
+}, {
+  "district": "Lower Dibang Valley",
+  "hq": "Roing",
+  "density": 14.0,
+  "lat": 28.11687,
+  "lon": 95.82196
+}, {
+  "district": "Lower Siang",
+  "hq": "Likabali",
+  "density": 0.0,
+  "lat": 27.52327,
+  "lon": 94.71375
+}, {
+  "district": "Lower Subansiri",
+  "hq": "Ziro",
+  "density": 24.0,
+  "lat": 11.55711,
+  "lon": -1.76367
+}, {
+  "district": "Namsai",
+  "hq": "Namsai",
+  "density": 60.0,
+  "lat": 27.66541,
+  "lon": 95.87726
+}, {
+  "district": "Pakke-Kessang",
+  "hq": "Lemmi",
+  "density": 0.0,
+  "lat": 10.44512,
+  "lon": 9.24252
+}, {
+  "district": "Shi Yomi",
+  "hq": "Tato",
+  "density": 5.0,
+  "lat": 44.40783,
+  "lon": 6.60804
+}, {
+  "district": "Siang",
+  "hq": "Pangin",
+  "density": 11.0,
+  "lat": -0.44168,
+  "lon": 100.78079
+}, {
+  "district": "Tirap",
+  "hq": "Khonsa",
+  "density": 47.0,
+  "lat": 26.98801,
+  "lon": 95.50433
+}, {
+  "district": "Upper Dibang Valley",
+  "hq": "Anini",
+  "density": 1.0,
+  "lat": 46.89087,
+  "lon": 28.46282
+}, {
+  "district": "Upper Siang",
+  "hq": "Yingkiong",
+  "density": 6.0,
+  "lat": 38.65583,
+  "lon": -27.22104
+}, {
+  "district": "West Siang",
+  "hq": "Along",
+  "density": 13.0,
+  "lat": 44.26761,
+  "lon": 1.27883
+}, {
+  "district": "Baksa",
+  "hq": "Mushalpur",
+  "density": 475.0,
+  "lat": 26.80669,
+  "lon": 83.39556
+}, {
+  "district": "Barpeta",
+  "hq": "Barpeta",
+  "density": 522.0,
+  "lat": 26.31282,
+  "lon": 91.00252
+}, {
+  "district": "Bishwanath",
+  "hq": "Bishwanath Chariali",
+  "density": 560.0,
+  "lat": 26.73366,
+  "lon": 93.14832
+}, {
+  "district": "Bongaigaon",
+  "hq": "Bongaigaon",
+  "density": 425.0,
+  "lat": 26.46937,
+  "lon": 90.56083
+}, {
+  "district": "Cachar",
+  "hq": "Silchar",
+  "density": 459.0,
+  "lat": 24.81277,
+  "lon": 92.7976
+}, {
+  "district": "Charaideo",
+  "hq": "Sonari",
+  "density": 0.0,
+  "lat": 27.02636,
+  "lon": 95.01801
+}, {
+  "district": "Chirang",
+  "hq": "Kajalgaon",
+  "density": 244.0,
+  "lat": 26.48713,
+  "lon": 90.51338
+}, {
+  "district": "Darrang",
+  "hq": "Mangaldoi",
+  "density": 491.0,
+  "lat": 26.436,
+  "lon": 92.02621
+}, {
+  "district": "Dhemaji",
+  "hq": "Dhemaji",
+  "density": 213.0,
+  "lat": 27.47525,
+  "lon": 94.56184
+}, {
+  "district": "Dhubri",
+  "hq": "Dhubri",
+  "density": 687.0,
+  "lat": 26.02572,
+  "lon": 89.97211
+}, {
+  "district": "Dibrugarh",
+  "hq": "Dibrugarh",
+  "density": 393.0,
+  "lat": 27.48441,
+  "lon": 94.92311
+}, {
+  "district": "Dima Hasao",
+  "hq": "Haflong",
+  "density": 44.0,
+  "lat": 25.17879,
+  "lon": 93.01121
+}, {
+  "district": "Goalpara",
+  "hq": "Goalpara",
+  "density": 553.0,
+  "lat": 26.13145,
+  "lon": 90.56468
+}, {
+  "district": "Golaghat",
+  "hq": "Golaghat",
+  "density": 302.0,
+  "lat": 26.50723,
+  "lon": 93.9736
+}, {
+  "district": "Hailakandi",
+  "hq": "Hailakandi",
+  "density": 497.0,
+  "lat": 24.67881,
+  "lon": 92.56544
+}, {
+  "district": "Hojai",
+  "hq": "Hojai",
+  "density": 0.0,
+  "lat": 26.00316,
+  "lon": 92.85384
+}, {
+  "district": "Jorhat",
+  "hq": "Jorhat",
+  "density": 383.0,
+  "lat": 26.76748,
+  "lon": 94.20675
+}, {
+  "district": "Kamrup",
+  "hq": "Amingaon",
+  "density": 436.0,
+  "lat": 26.51246,
+  "lon": 91.26322
+}, {
+  "district": "Kamrup Metropolitan",
+  "hq": "Guwahati",
+  "density": 2010.0,
+  "lat": 26.17724,
+  "lon": 91.7542
+}, {
+  "district": "Karbi Anglong",
+  "hq": "Diphu",
+  "density": 93.0,
+  "lat": 25.84704,
+  "lon": 93.42487
+}, {
+  "district": "Karimganj",
+  "hq": "Karimganj",
+  "density": 673.0,
+  "lat": 24.46897,
+  "lon": 90.91531
+}, {
+  "district": "Kokrajhar",
+  "hq": "Kokrajhar",
+  "density": 283.0,
+  "lat": 26.40404,
+  "lon": 90.26976
+}, {
+  "district": "Lakhimpur",
+  "hq": "North Lakhimpur",
+  "density": 457.0,
+  "lat": 27.2285,
+  "lon": 94.09445
+}, {
+  "district": "Majuli",
+  "hq": "Garamur",
+  "density": 300.0,
+  "lat": 25.40522,
+  "lon": 88.52483
+}, {
+  "district": "Morigaon",
+  "hq": "Marigaon",
+  "density": 562.0,
+  "lat": 26.25214,
+  "lon": 92.34158
+}, {
+  "district": "Nagaon",
+  "hq": "Nagaon",
+  "density": 738.0,
+  "lat": 26.3495,
+  "lon": 92.68463
+}, {
+  "district": "Nalbari",
+  "hq": "Nalbari",
+  "density": 763.0,
+  "lat": 26.4446,
+  "lon": 91.43824
+}, {
+  "district": "Sonitpur",
+  "hq": "Tezpur",
+  "density": 362.0,
+  "lat": 26.62088,
+  "lon": 92.79398
+}, {
+  "district": "Tinsukia",
+  "hq": "Tinsukia",
+  "density": 347.0,
+  "lat": 27.48772,
+  "lon": 95.35682
+}, {
+  "district": "Udalguri",
+  "hq": "Udalguri",
+  "density": 497.0,
+  "lat": 26.74476,
+  "lon": 92.09443
+}, {
+  "district": "West Karbi Anglong",
+  "hq": "Hamren",
+  "density": 99.0,
+  "lat": 25.85074,
+  "lon": 92.58118
+}, {
+  "district": "Araria",
+  "hq": "Araria",
+  "density": 992.0,
+  "lat": 26.13288,
+  "lon": 87.45729
+}, {
+  "district": "Arwal",
+  "hq": "Arwal",
+  "density": 1098.0,
+  "lat": 25.24546,
+  "lon": 84.66381
+}, {
+  "district": "Aurangabad",
+  "hq": "Aurangabad",
+  "density": 760.0,
+  "lat": 19.87013,
+  "lon": 75.34599
+}, {
+  "district": "Banka",
+  "hq": "Banka",
+  "density": 672.0,
+  "lat": 24.88538,
+  "lon": 86.92398
+}, {
+  "district": "Begusarai",
+  "hq": "Begusarai",
+  "density": 1540.0,
+  "lat": 25.42442,
+  "lon": 86.13367
+}, {
+  "district": "Bhagalpur",
+  "hq": "Bhagalpur",
+  "density": 1180.0,
+  "lat": 25.24183,
+  "lon": 86.98627
+}, {
+  "district": "Bhojpur",
+  "hq": "Arrah",
+  "density": 1136.0,
+  "lat": 25.55821,
+  "lon": 84.6778
+}, {
+  "district": "Buxar",
+  "hq": "Buxar",
+  "density": 1003.0,
+  "lat": 25.57226,
+  "lon": 83.97209
+}, {
+  "district": "Darbhanga",
+  "hq": "Darbhanga",
+  "density": 1721.0,
+  "lat": 26.16271,
+  "lon": 85.8975
+}, {
+  "district": "East Champaran",
+  "hq": "Motihari",
+  "density": 1281.0,
+  "lat": 26.65165,
+  "lon": 84.91521
+}, {
+  "district": "Gaya",
+  "hq": "Gaya",
+  "density": 880.0,
+  "lat": 24.78496,
+  "lon": 84.99273
+}, {
+  "district": "Gopalganj",
+  "hq": "Gopalganj",
+  "density": 1258.0,
+  "lat": 26.46645,
+  "lon": 84.44285
+}, {
+  "district": "Jamui",
+  "hq": "Jamui",
+  "density": 567.0,
+  "lat": 24.92143,
+  "lon": 86.22539
+}, {
+  "district": "Jehanabad",
+  "hq": "Jehanabad",
+  "density": 1206.0,
+  "lat": 25.21343,
+  "lon": 84.98536
+}, {
+  "district": "Kaimur",
+  "hq": "Bhabua",
+  "density": 488.0,
+  "lat": 25.04698,
+  "lon": 83.60549
+}, {
+  "district": "Katihar",
+  "hq": "Katihar",
+  "density": 1004.0,
+  "lat": 25.55696,
+  "lon": 87.55661
+}, {
+  "district": "Khagaria",
+  "hq": "Khagaria",
+  "density": 1115.0,
+  "lat": 25.51096,
+  "lon": 86.47245
+}, {
+  "district": "Kishanganj",
+  "hq": "Kishanganj",
+  "density": 898.0,
+  "lat": 25.07595,
+  "lon": 76.7949
+}, {
+  "district": "Lakhisarai",
+  "hq": "Lakhisarai",
+  "density": 815.0,
+  "lat": 25.16772,
+  "lon": 86.09557
+}, {
+  "district": "Madhepura",
+  "hq": "Madhepura",
+  "density": 1116.0,
+  "lat": 25.91635,
+  "lon": 86.79344
+}, {
+  "district": "Madhubani",
+  "hq": "Madhubani",
+  "density": 1279.0,
+  "lat": 26.96379,
+  "lon": 84.13345
+}, {
+  "district": "Munger",
+  "hq": "Munger",
+  "density": 958.0,
+  "lat": 25.36557,
+  "lon": 86.48767
+}, {
+  "district": "Muzaffarpur",
+  "hq": "Muzaffarpur",
+  "density": 1506.0,
+  "lat": 26.124,
+  "lon": 85.38669
+}, {
+  "district": "Nalanda",
+  "hq": "Bihar Sharif",
+  "density": 1220.0,
+  "lat": 25.18768,
+  "lon": 85.52453
+}, {
+  "district": "Nawada",
+  "hq": "Nawada",
+  "density": 889.0,
+  "lat": 24.88671,
+  "lon": 85.54393
+}, {
+  "district": "Patna",
+  "hq": "Patna",
+  "density": 1803.0,
+  "lat": 25.60129,
+  "lon": 85.13752
+}, {
+  "district": "Purnia",
+  "hq": "Purnia",
+  "density": 1014.0,
+  "lat": 25.77685,
+  "lon": 87.47427
+}, {
+  "district": "Rohtas",
+  "hq": "Sasaram",
+  "density": 763.0,
+  "lat": 24.9546,
+  "lon": 84.01768
+}, {
+  "district": "Saharsa",
+  "hq": "Saharsa",
+  "density": 1125.0,
+  "lat": 25.87723,
+  "lon": 86.59286
+}, {
+  "district": "Samastipur",
+  "hq": "Samastipur",
+  "density": 1465.0,
+  "lat": 25.86357,
+  "lon": 85.77875
+}, {
+  "district": "Saran",
+  "hq": "Chhapra",
+  "density": 1493.0,
+  "lat": 23.52148,
+  "lon": 88.54861
+}, {
+  "district": "Sheikhpura",
+  "hq": "Sheikhpura",
+  "density": 922.0,
+  "lat": 25.14193,
+  "lon": 85.86285
+}, {
+  "district": "Sheohar",
+  "hq": "Sheohar",
+  "density": 1882.0,
+  "lat": 26.51373,
+  "lon": 85.29451
+}, {
+  "district": "Sitamarhi",
+  "hq": "Sitamarhi",
+  "density": 1491.0,
+  "lat": 26.5797,
+  "lon": 85.50935
+}, {
+  "district": "Siwan",
+  "hq": "Siwan",
+  "density": 1495.0,
+  "lat": 26.22425,
+  "lon": 84.3603
+}, {
+  "district": "Supaul",
+  "hq": "Supaul",
+  "density": 919.0,
+  "lat": 26.11531,
+  "lon": 86.59543
+}, {
+  "district": "Vaishali",
+  "hq": "Hajipur",
+  "density": 1717.0,
+  "lat": 25.7029,
+  "lon": 85.22139
+}, {
+  "district": "West Champaran",
+  "hq": "Bettiah",
+  "density": 753.0,
+  "lat": 26.80353,
+  "lon": 84.52527
+}, {
+  "district": "Balod",
+  "hq": "Balod",
+  "density": 234.0,
+  "lat": 20.58257,
+  "lon": 81.07147
+}, {
+  "district": "Baloda Bazar",
+  "hq": "Baloda Bazar",
+  "density": 275.0,
+  "lat": 21.65708,
+  "lon": 82.15973
+}, {
+  "district": "Balrampur",
+  "hq": "Balrampur",
+  "density": 157.0,
+  "lat": 25.74241,
+  "lon": 87.94637
+}, {
+  "district": "Bastar",
+  "hq": "Jagdalpur",
+  "density": 87.0,
+  "lat": 19.08532,
+  "lon": 82.01826
+}, {
+  "district": "Bemetara",
+  "hq": "Bemetara",
+  "density": 69.0,
+  "lat": 21.71912,
+  "lon": 81.53331
+}, {
+  "district": "Bijapur",
+  "hq": "Bijapur",
+  "density": 35.0,
+  "lat": 18.79758,
+  "lon": 80.81477
+}, {
+  "district": "Bilaspur",
+  "hq": "Bilaspur",
+  "density": 337.0,
+  "lat": 22.0785,
+  "lon": 82.14026
+}, {
+  "district": "Dantewada",
+  "hq": "Dantewada",
+  "density": 59.0,
+  "lat": 18.89996,
+  "lon": 81.34823
+}, {
+  "district": "Dhamtari",
+  "hq": "Dhamtari",
+  "density": 394.0,
+  "lat": 20.70647,
+  "lon": 81.54941
+}, {
+  "district": "Durg",
+  "hq": "Durg",
+  "density": 391.0,
+  "lat": 21.19915,
+  "lon": 81.28974
+}, {
+  "district": "Gariaband",
+  "hq": "Gariaband",
+  "density": 103.0,
+  "lat": 20.13309,
+  "lon": 82.30253
+}, {
+  "district": "Gaurela-Pendra-Marwahi",
+  "hq": "Gaurela-Pendra-Marwahi",
+  "density": 0.0,
+  "lat": 22.77289,
+  "lon": 81.9615
+}, {
+  "district": "Janjgir-Champa",
+  "hq": "Naila Janjgir",
+  "density": 421.0,
+  "lat": 22.01177,
+  "lon": 82.57615
+}, {
+  "district": "Jashpur",
+  "hq": "Jashpur Nagar",
+  "density": 146.0,
+  "lat": 22.88756,
+  "lon": 84.13841
+}, {
+  "district": "Kabirdham",
+  "hq": "Kawardha",
+  "density": 195.0,
+  "lat": 22.01047,
+  "lon": 81.24136
+}, {
+  "district": "Kanker",
+  "hq": "Kanker",
+  "density": 115.0,
+  "lat": 20.27344,
+  "lon": 81.49288
+}, {
+  "district": "Kondagaon",
+  "hq": "Kondagaon",
+  "density": 74.0,
+  "lat": 19.58742,
+  "lon": 81.66149
+}, {
+  "district": "Korba",
+  "hq": "Korba",
+  "density": 183.0,
+  "lat": 22.36701,
+  "lon": 82.71381
+}, {
+  "district": "Koriya",
+  "hq": "Baikunthpur",
+  "density": 100.0,
+  "lat": 26.25966,
+  "lon": 84.74098
+}, {
+  "district": "Mahasamund",
+  "hq": "Mahasamund",
+  "density": 216.0,
+  "lat": 21.11062,
+  "lon": 82.09547
+}, {
+  "district": "Mungeli",
+  "hq": "Mungeli",
+  "density": 255.0,
+  "lat": 22.06622,
+  "lon": 81.68624
+}, {
+  "district": "Narayanpur",
+  "hq": "Narayanpur",
+  "density": 20.0,
+  "lat": 25.40567,
+  "lon": 86.8606
+}, {
+  "district": "Raigarh",
+  "hq": "Raigarh",
+  "density": 211.0,
+  "lat": 21.89626,
+  "lon": 83.39395
+}, {
+  "district": "Raipur",
+  "hq": "Raipur",
+  "density": 310.0,
+  "lat": 21.24402,
+  "lon": 81.63477
+}, {
+  "district": "Rajnandgaon",
+  "hq": "Rajnandgaon",
+  "density": 191.0,
+  "lat": 21.09752,
+  "lon": 81.03412
+}, {
+  "district": "Sukma",
+  "hq": "Sukma",
+  "density": 49.0,
+  "lat": 18.39235,
+  "lon": 81.65898
+}, {
+  "district": "Surajpur",
+  "hq": "Surajpur",
+  "density": 150.0,
+  "lat": 23.2139,
+  "lon": 82.86824
+}, {
+  "district": "Surguja",
+  "hq": "Ambikapur",
+  "density": 150.0,
+  "lat": 23.13339,
+  "lon": 83.17864
+}, {
+  "district": "North Goa",
+  "hq": "Panaji",
+  "density": 471.0,
+  "lat": 15.45844,
+  "lon": 73.80566
+}, {
+  "district": "South Goa",
+  "hq": "Margao",
+  "density": 326.0,
+  "lat": 15.2747,
+  "lon": 73.98014
+}, {
+  "district": "Ahmedabad",
+  "hq": "Ahmedabad",
+  "density": 890.0,
+  "lat": 23.02777,
+  "lon": 72.60028
+}, {
+  "district": "Amreli",
+  "hq": "Amreli",
+  "density": 205.0,
+  "lat": 21.60518,
+  "lon": 71.21626
+}, {
+  "district": "Anand",
+  "hq": "Anand",
+  "density": 711.0,
+  "lat": 22.5688,
+  "lon": 72.97962
+}, {
+  "district": "Aravalli",
+  "hq": "Modasa",
+  "density": 327.0,
+  "lat": 23.46184,
+  "lon": 73.29738
+}, {
+  "district": "Banaskantha",
+  "hq": "Palanpur",
+  "density": 290.0,
+  "lat": 24.17123,
+  "lon": 72.42839
+}, {
+  "district": "Bharuch",
+  "hq": "Bharuch",
+  "density": 238.0,
+  "lat": 21.70448,
+  "lon": 72.99877
+}, {
+  "district": "Bhavnagar",
+  "hq": "Bhavnagar",
+  "density": 288.0,
+  "lat": 21.77006,
+  "lon": 72.1459
+}, {
+  "district": "Botad",
+  "hq": "Botad",
+  "density": 256.0,
+  "lat": 22.1724,
+  "lon": 71.66339
+}, {
+  "district": "Chhota Udepur",
+  "hq": "Chhota Udepur",
+  "density": 331.0,
+  "lat": 22.3139,
+  "lon": 74.01393
+}, {
+  "district": "Dahod",
+  "hq": "Dahod",
+  "density": 582.0,
+  "lat": 22.85562,
+  "lon": 74.25743
+}, {
+  "district": "Dang",
+  "hq": "Ahwa",
+  "density": 129.0,
+  "lat": 20.75933,
+  "lon": 73.69015
+}, {
+  "district": "Devbhoomi Dwarka",
+  "hq": "Khambhalia",
+  "density": 132.0,
+  "lat": 22.20789,
+  "lon": 69.65444
+}, {
+  "district": "Gandhinagar",
+  "hq": "Gandhinagar",
+  "density": 660.0,
+  "lat": 23.24081,
+  "lon": 72.63733
+}, {
+  "district": "Gir Somnath",
+  "hq": "Veraval",
+  "density": 324.0,
+  "lat": 20.91424,
+  "lon": 70.36085
+}, {
+  "district": "Jamnagar",
+  "hq": "Jamnagar",
+  "density": 153.0,
+  "lat": 22.46916,
+  "lon": 70.07095
+}, {
+  "district": "Junagadh",
+  "hq": "Junagadh",
+  "density": 310.0,
+  "lat": 21.52217,
+  "lon": 70.45801
+}, {
+  "district": "Kheda",
+  "hq": "Nadiad",
+  "density": 541.0,
+  "lat": 22.69764,
+  "lon": 72.8566
+}, {
+  "district": "Kutch",
+  "hq": "Bhuj",
+  "density": 46.0,
+  "lat": 23.24941,
+  "lon": 69.67232
+}, {
+  "district": "Mahisagar",
+  "hq": "Lunavada",
+  "density": 398.0,
+  "lat": 23.12609,
+  "lon": 73.60885
+}, {
+  "district": "Mehsana",
+  "hq": "Mehsana",
+  "density": 462.0,
+  "lat": 23.608,
+  "lon": 72.37459
+}, {
+  "district": "Morbi",
+  "hq": "Morbi",
+  "density": 197.0,
+  "lat": 22.80778,
+  "lon": 70.82356
+}, {
+  "district": "Narmada",
+  "hq": "Rajpipla",
+  "density": 214.0,
+  "lat": 21.87437,
+  "lon": 73.50255
+}, {
+  "district": "Navsari",
+  "hq": "Navsari",
+  "density": 602.0,
+  "lat": 20.95317,
+  "lon": 72.96004
+}, {
+  "district": "Panchmahal",
+  "hq": "Godhra",
+  "density": 458.0,
+  "lat": 22.7789,
+  "lon": 73.62076
+}, {
+  "district": "Patan",
+  "hq": "Patan",
+  "density": 234.0,
+  "lat": 24.20131,
+  "lon": 84.17739
+}, {
+  "district": "Porbandar",
+  "hq": "Porbandar",
+  "density": 255.0,
+  "lat": 21.64481,
+  "lon": 69.62102
+}, {
+  "district": "Rajkot",
+  "hq": "Rajkot",
+  "density": 282.0,
+  "lat": 22.29717,
+  "lon": 70.80156
+}, {
+  "district": "Sabarkantha",
+  "hq": "Himatnagar",
+  "density": 328.0,
+  "lat": 23.59672,
+  "lon": 72.9596
+}, {
+  "district": "Surat",
+  "hq": "Surat",
+  "density": 653.0,
+  "lat": 21.18578,
+  "lon": 72.83679
+}, {
+  "district": "Surendranagar",
+  "hq": "Surendranagar",
+  "density": 167.0,
+  "lat": 22.73233,
+  "lon": 71.62785
+}, {
+  "district": "Tapi",
+  "hq": "Vyara",
+  "density": 249.0,
+  "lat": 21.10815,
+  "lon": 73.3948
+}, {
+  "district": "Vadodara",
+  "hq": "Vadodara",
+  "density": 467.0,
+  "lat": 22.30947,
+  "lon": 73.17994
+}, {
+  "district": "Valsad",
+  "hq": "Valsad",
+  "density": 561.0,
+  "lat": 20.6109,
+  "lon": 72.93156
+}, {
+  "district": "Ambala",
+  "hq": "Ambala",
+  "density": 722.0,
+  "lat": 30.36425,
+  "lon": 76.80815
+}, {
+  "district": "Bhiwani",
+  "hq": "Bhiwani",
+  "density": 341.0,
+  "lat": 28.7956,
+  "lon": 76.14622
+}, {
+  "district": "Charkhi Dadri",
+  "hq": "Charkhi Dadri",
+  "density": 367.0,
+  "lat": 28.60328,
+  "lon": 76.24964
+}, {
+  "district": "Faridabad",
+  "hq": "Faridabad",
+  "density": 2298.0,
+  "lat": 28.39247,
+  "lon": 77.31276
+}, {
+  "district": "Fatehabad",
+  "hq": "Fatehabad",
+  "density": 371.0,
+  "lat": 29.51389,
+  "lon": 75.44979
+}, {
+  "district": "Gurgaon",
+  "hq": "Gurgaon",
+  "density": 1241.0,
+  "lat": 28.47763,
+  "lon": 77.06953
+}, {
+  "district": "Hissar",
+  "hq": "Hissar",
+  "density": 438.0,
+  "lat": 43.40585,
+  "lon": 0.41929
+}, {
+  "district": "Jhajjar",
+  "hq": "Jhajjar",
+  "density": 522.0,
+  "lat": 28.60768,
+  "lon": 76.65252
+}, {
+  "district": "Jind",
+  "hq": "Jind",
+  "density": 493.0,
+  "lat": 29.31662,
+  "lon": 76.32101
+}, {
+  "district": "Kaithal",
+  "hq": "Kaithal",
+  "density": 467.0,
+  "lat": 29.7974,
+  "lon": 76.37769
+}, {
+  "district": "Karnal",
+  "hq": "Karnal",
+  "density": 598.0,
+  "lat": 29.68587,
+  "lon": 76.98936
+}, {
+  "district": "Kurukshetra",
+  "hq": "Kurukshetra",
+  "density": 630.0,
+  "lat": 29.97336,
+  "lon": 76.85444
+}, {
+  "district": "Mahendragarh",
+  "hq": "Narnaul",
+  "density": 485.0,
+  "lat": 28.05376,
+  "lon": 76.10545
+}, {
+  "district": "Nuh",
+  "hq": "Nuh",
+  "density": 729.0,
+  "lat": 28.10504,
+  "lon": 77.00921
+}, {
+  "district": "Palwal",
+  "hq": "Palwal",
+  "density": 761.0,
+  "lat": 28.14261,
+  "lon": 77.33442
+}, {
+  "district": "Panchkula",
+  "hq": "Panchkula",
+  "density": 622.0,
+  "lat": 30.70457,
+  "lon": 76.86396
+}, {
+  "district": "Panipat",
+  "hq": "Panipat",
+  "density": 949.0,
+  "lat": 29.39291,
+  "lon": 76.96864
+}, {
+  "district": "Rewari",
+  "hq": "Rewari",
+  "density": 562.0,
+  "lat": 28.20085,
+  "lon": 76.61071
+}, {
+  "district": "Rohtak",
+  "hq": "Rohtak",
+  "density": 607.0,
+  "lat": 28.89765,
+  "lon": 76.57447
+}, {
+  "district": "Sirsa",
+  "hq": "Sirsa",
+  "density": 303.0,
+  "lat": 29.53942,
+  "lon": 75.0311
+}, {
+  "district": "Sonipat",
+  "hq": "Sonipat",
+  "density": 697.0,
+  "lat": 28.99523,
+  "lon": 77.0222
+}, {
+  "district": "Yamuna Nagar",
+  "hq": "Yamuna Nagar",
+  "density": 687.0,
+  "lat": 26.20416,
+  "lon": 78.20862
+}, {
+  "district": "Bilaspur",
+  "hq": "Bilaspur",
+  "density": 327.0,
+  "lat": 22.0785,
+  "lon": 82.14026
+}, {
+  "district": "Chamba",
+  "hq": "Chamba",
+  "density": 80.0,
+  "lat": 32.55537,
+  "lon": 76.1249
+}, {
+  "district": "Hamirpur",
+  "hq": "Hamirpur",
+  "density": 406.0,
+  "lat": 25.96085,
+  "lon": 80.14531
+}, {
+  "district": "Kangra",
+  "hq": "Dharamshala",
+  "density": 263.0,
+  "lat": 32.21663,
+  "lon": 76.32095
+}, {
+  "district": "Kinnaur",
+  "hq": "Reckong Peo",
+  "density": 13.0,
+  "lat": 31.53666,
+  "lon": 78.26515
+}, {
+  "district": "Kullu",
+  "hq": "Kullu",
+  "density": 79.0,
+  "lat": 31.95837,
+  "lon": 77.10925
+}, {
+  "district": "Lahaul and Spiti",
+  "hq": "Keylong",
+  "density": 2.0,
+  "lat": 32.5719,
+  "lon": 77.02956
+}, {
+  "district": "Mandi",
+  "hq": "Mandi",
+  "density": 253.0,
+  "lat": 31.7092,
+  "lon": 76.93201
+}, {
+  "district": "Shimla",
+  "hq": "Shimla",
+  "density": 159.0,
+  "lat": 31.10321,
+  "lon": 77.15847
+}, {
+  "district": "Sirmaur",
+  "hq": "Nahan",
+  "density": 188.0,
+  "lat": 30.5602,
+  "lon": 77.29553
+}, {
+  "district": "Solan",
+  "hq": "Solan",
+  "density": 298.0,
+  "lat": 30.91888,
+  "lon": 77.09765
+}, {
+  "district": "Una",
+  "hq": "Una",
+  "density": 328.0,
+  "lat": 20.82677,
+  "lon": 71.0451
+}, {
+  "district": "Bokaro",
+  "hq": "Bokaro",
+  "density": 716.0,
+  "lat": 23.78878,
+  "lon": 85.87942
+}, {
+  "district": "Chatra",
+  "hq": "Chatra",
+  "density": 275.0,
+  "lat": 24.20419,
+  "lon": 84.87191
+}, {
+  "district": "Deoghar",
+  "hq": "Deoghar",
+  "density": 602.0,
+  "lat": 24.48907,
+  "lon": 86.69949
+}, {
+  "district": "Dhanbad",
+  "hq": "Dhanbad",
+  "density": 1284.0,
+  "lat": 23.79594,
+  "lon": 86.43061
+}, {
+  "district": "Dumka",
+  "hq": "Dumka",
+  "density": 300.0,
+  "lat": 24.26839,
+  "lon": 87.24888
+}, {
+  "district": "East Singhbhum",
+  "hq": "Jamshedpur",
+  "density": 648.0,
+  "lat": 22.7815,
+  "lon": 86.21216
+}, {
+  "district": "Garhwa",
+  "hq": "Garhwa",
+  "density": 327.0,
+  "lat": 24.15887,
+  "lon": 83.80081
+}, {
+  "district": "Giridih",
+  "hq": "Giridih",
+  "density": 497.0,
+  "lat": 24.18712,
+  "lon": 86.30464
+}, {
+  "district": "Godda",
+  "hq": "Godda",
+  "density": 622.0,
+  "lat": 24.83211,
+  "lon": 87.20731
+}, {
+  "district": "Gumla",
+  "hq": "Gumla",
+  "density": 193.0,
+  "lat": 23.04153,
+  "lon": 84.54301
+}, {
+  "district": "Hazaribag",
+  "hq": "Hazaribag",
+  "density": 403.0,
+  "lat": 23.70435,
+  "lon": 90.43014
+}, {
+  "district": "Jamtara",
+  "hq": "Jamtara",
+  "density": 439.0,
+  "lat": 23.96056,
+  "lon": 86.80219
+}, {
+  "district": "Khunti",
+  "hq": "Khunti",
+  "density": 215.0,
+  "lat": 23.07541,
+  "lon": 85.28142
+}, {
+  "district": "Koderma",
+  "hq": "Koderma",
+  "density": 427.0,
+  "lat": 24.46782,
+  "lon": 85.59408
+}, {
+  "district": "Latehar",
+  "hq": "Latehar",
+  "density": 200.0,
+  "lat": 23.74441,
+  "lon": 84.50814
+}, {
+  "district": "Lohardaga",
+  "hq": "Lohardaga",
+  "density": 310.0,
+  "lat": 23.43979,
+  "lon": 84.68419
+}, {
+  "district": "Pakur",
+  "hq": "Pakur",
+  "density": 498.0,
+  "lat": 24.63681,
+  "lon": 87.84719
+}, {
+  "district": "Palamu",
+  "hq": "Daltonganj",
+  "density": 381.0,
+  "lat": 24.0482,
+  "lon": 84.07691
+}, {
+  "district": "Ramgarh",
+  "hq": "Ramgarh",
+  "density": 684.0,
+  "lat": 24.56366,
+  "lon": 87.25035
+}, {
+  "district": "Ranchi",
+  "hq": "Ranchi",
+  "density": 557.0,
+  "lat": 23.35062,
+  "lon": 85.31378
+}, {
+  "district": "Sahibganj",
+  "hq": "Sahebganj",
+  "density": 719.0,
+  "lat": 26.29745,
+  "lon": 84.92699
+}, {
+  "district": "Seraikela Kharsawan",
+  "hq": "Seraikela",
+  "density": 390.0,
+  "lat": 22.70233,
+  "lon": 85.93243
+}, {
+  "district": "Simdega",
+  "hq": "Simdega",
+  "density": 160.0,
+  "lat": 22.61049,
+  "lon": 84.50165
+}, {
+  "district": "West Singhbhum",
+  "hq": "Chaibasa",
+  "density": 209.0,
+  "lat": 22.54578,
+  "lon": 85.80507
+}, {
+  "district": "Bagalkot",
+  "hq": "Bagalkot",
+  "density": 288.0,
+  "lat": 16.16624,
+  "lon": 75.65416
+}, {
+  "district": "Ballari",
+  "hq": "Ballari",
+  "density": 300.0,
+  "lat": 15.14501,
+  "lon": 76.92825
+}, {
+  "district": "Belgaum",
+  "hq": "Belgaum",
+  "density": 356.0,
+  "lat": 15.86703,
+  "lon": 74.51167
+}, {
+  "district": "Bangalore Rural",
+  "hq": "Bangalore",
+  "density": 441.0,
+  "lat": 12.96643,
+  "lon": 77.58718
+}, {
+  "district": "Bangalore Urban",
+  "hq": "Bangalore",
+  "density": 4378.0,
+  "lat": 12.96643,
+  "lon": 77.58718
+}, {
+  "district": "Bidar",
+  "hq": "Bidar",
+  "density": 312.0,
+  "lat": 17.91054,
+  "lon": 77.51447
+}, {
+  "district": "Chamarajnagar",
+  "hq": "Chamarajanagar",
+  "density": 200.0,
+  "lat": 11.92241,
+  "lon": 76.93936
+}, {
+  "district": "Chikkamagaluru",
+  "hq": "Chikmagalur",
+  "density": 158.0,
+  "lat": 13.32307,
+  "lon": 75.77381
+}, {
+  "district": "Chitradurga",
+  "hq": "Chitradurga",
+  "density": 197.0,
+  "lat": 14.22049,
+  "lon": 76.39956
+}, {
+  "district": "Dakshina Kannada",
+  "hq": "Mangaluru",
+  "density": 457.0,
+  "lat": 12.89786,
+  "lon": 74.84541
+}, {
+  "district": "Davanagere",
+  "hq": "Davangere",
+  "density": 329.0,
+  "lat": 14.47459,
+  "lon": 75.88371
+}, {
+  "district": "Dharwad",
+  "hq": "Dharwad",
+  "density": 434.0,
+  "lat": 15.45111,
+  "lon": 75.00517
+}, {
+  "district": "Gadag",
+  "hq": "Gadag-Betageri",
+  "density": 229.0,
+  "lat": 15.81754,
+  "lon": 75.8236
+}, {
+  "district": "Gulbarga",
+  "hq": "Gulbarga",
+  "density": 233.0,
+  "lat": 17.33274,
+  "lon": 76.84035
+}, {
+  "district": "Hassan",
+  "hq": "Hassan",
+  "density": 261.0,
+  "lat": 13.00288,
+  "lon": 76.10245
+}, {
+  "district": "Haveri",
+  "hq": "Haveri",
+  "density": 331.0,
+  "lat": 14.79276,
+  "lon": 75.39636
+}, {
+  "district": "Kodagu",
+  "hq": "Madikeri",
+  "density": 135.0,
+  "lat": 12.42401,
+  "lon": 75.73172
+}, {
+  "district": "Kolar",
+  "hq": "Kolar",
+  "density": 384.0,
+  "lat": 13.13634,
+  "lon": 78.13254
+}, {
+  "district": "Koppal",
+  "hq": "Koppal",
+  "density": 250.0,
+  "lat": 15.32956,
+  "lon": 76.15267
+}, {
+  "district": "Mandya",
+  "hq": "Mandya",
+  "density": 365.0,
+  "lat": 12.52736,
+  "lon": 76.89465
+}, {
+  "district": "Mysuru",
+  "hq": "Mysore",
+  "density": 437.0,
+  "lat": 12.72085,
+  "lon": -61.31681
+}, {
+  "district": "Raichur",
+  "hq": "Raichur",
+  "density": 228.0,
+  "lat": 16.20325,
+  "lon": 77.34488
+}, {
+  "district": "Ramanagara",
+  "hq": "Ramanagara",
+  "density": 303.0,
+  "lat": 12.71546,
+  "lon": 77.27407
+}, {
+  "district": "Shimoga",
+  "hq": "Shimoga",
+  "density": 207.0,
+  "lat": 13.94478,
+  "lon": 75.5667
+}, {
+  "district": "Tumakuru",
+  "hq": "Tumakuru",
+  "density": 253.0,
+  "lat": 13.34004,
+  "lon": 77.10151
+}, {
+  "district": "Udupi",
+  "hq": "Udupi",
+  "density": 304.0,
+  "lat": 13.33514,
+  "lon": 74.74942
+}, {
+  "district": "Uttara Kannada",
+  "hq": "Karwar",
+  "density": 132.0,
+  "lat": 14.81833,
+  "lon": 74.13454
+}, {
+  "district": "Vijayapura",
+  "hq": "Vijayapura",
+  "density": 207.0,
+  "lat": 16.8288,
+  "lon": 75.71436
+}, {
+  "district": "Yadgir",
+  "hq": "Yadgir",
+  "density": 224.0,
+  "lat": 16.76093,
+  "lon": 77.13665
+}, {
+  "district": "Alappuzha",
+  "hq": "Alappuzha",
+  "density": 1501.0,
+  "lat": 9.50131,
+  "lon": 76.33232
+}, {
+  "district": "Ernakulam",
+  "hq": "Kakkanad",
+  "density": 1069.0,
+  "lat": 10.01687,
+  "lon": 76.34536
+}, {
+  "district": "Idukki",
+  "hq": "Painavu",
+  "density": 254.0,
+  "lat": 9.85358,
+  "lon": 76.94722
+}, {
+  "district": "Kannur",
+  "hq": "Kannur",
+  "density": 852.0,
+  "lat": 11.87472,
+  "lon": 75.37518
+}, {
+  "district": "Kasaragod",
+  "hq": "Kasaragod",
+  "density": 654.0,
+  "lat": 12.50233,
+  "lon": 74.99092
+}, {
+  "district": "Kollam",
+  "hq": "Kollam",
+  "density": 1056.0,
+  "lat": 8.8869,
+  "lon": 76.59228
+}, {
+  "district": "Kottayam",
+  "hq": "Kottayam",
+  "density": 896.0,
+  "lat": 9.59477,
+  "lon": 76.53291
+}, {
+  "district": "Kozhikode",
+  "hq": "Kozhikode",
+  "density": 1318.0,
+  "lat": 11.25881,
+  "lon": 75.78085
+}, {
+  "district": "Malappuram",
+  "hq": "Malappuram",
+  "density": 1058.0,
+  "lat": 11.13017,
+  "lon": 76.11481
+}, {
+  "district": "Palakkad",
+  "hq": "Palakkad",
+  "density": 627.0,
+  "lat": 10.77553,
+  "lon": 76.65814
+}, {
+  "district": "Pathanamthitta",
+  "hq": "Pathanamthitta",
+  "density": 453.0,
+  "lat": 9.26458,
+  "lon": 76.78669
+}, {
+  "district": "Thrissur",
+  "hq": "Thrissur",
+  "density": 1026.0,
+  "lat": 10.51082,
+  "lon": 76.21121
+}, {
+  "district": "Thiruvananthapuram",
+  "hq": "Thiruvananthapuram",
+  "density": 1509.0,
+  "lat": 8.50519,
+  "lon": 76.95139
+}, {
+  "district": "Wayanad",
+  "hq": "Kalpetta",
+  "density": 383.0,
+  "lat": 11.61446,
+  "lon": 76.08285
+}, {
+  "district": "Agar Malwa",
+  "hq": "Agar",
+  "density": 0.0,
+  "lat": 23.71538,
+  "lon": 76.00681
+}, {
+  "district": "Alirajpur",
+  "hq": "Alirajpur",
+  "density": 229.0,
+  "lat": 22.30595,
+  "lon": 74.35549
+}, {
+  "district": "Anuppur",
+  "hq": "Anuppur",
+  "density": 200.0,
+  "lat": 23.11567,
+  "lon": 81.69611
+}, {
+  "district": "Ashok Nagar",
+  "hq": "Ashok Nagar",
+  "density": 181.0,
+  "lat": 27.18591,
+  "lon": 77.99673
+}, {
+  "district": "Balaghat",
+  "hq": "Balaghat",
+  "density": 184.0,
+  "lat": 21.81665,
+  "lon": 80.18473
+}, {
+  "district": "Barwani",
+  "hq": "Barwani",
+  "density": 256.0,
+  "lat": 22.03193,
+  "lon": 74.9041
+}, {
+  "district": "Betul",
+  "hq": "Betul",
+  "density": 157.0,
+  "lat": 21.90317,
+  "lon": 77.90005
+}, {
+  "district": "Bhind",
+  "hq": "Bhind",
+  "density": 382.0,
+  "lat": 26.56706,
+  "lon": 78.78548
+}, {
+  "district": "Bhopal",
+  "hq": "Bhopal",
+  "density": 854.0,
+  "lat": 23.26468,
+  "lon": 77.40519
+}, {
+  "district": "Burhanpur",
+  "hq": "Burhanpur",
+  "density": 221.0,
+  "lat": 21.3135,
+  "lon": 76.22047
+}, {
+  "district": "Chachaura-Binaganj",
+  "hq": "Chachaura",
+  "density": 0.0,
+  "lat": 24.17727,
+  "lon": 77.00121
+}, {
+  "district": "Chhatarpur",
+  "hq": "Chhatarpur",
+  "density": 203.0,
+  "lat": 24.90855,
+  "lon": 79.59632
+}, {
+  "district": "Chhindwara",
+  "hq": "Chhindwara",
+  "density": 177.0,
+  "lat": 22.05966,
+  "lon": 78.93939
+}, {
+  "district": "Damoh",
+  "hq": "Damoh",
+  "density": 173.0,
+  "lat": 23.83572,
+  "lon": 79.44359
+}, {
+  "district": "Datia",
+  "hq": "Datia",
+  "density": 292.0,
+  "lat": 25.66513,
+  "lon": 78.46092
+}, {
+  "district": "Dewas",
+  "hq": "Dewas",
+  "density": 223.0,
+  "lat": 22.9675,
+  "lon": 76.05673
+}, {
+  "district": "Dhar",
+  "hq": "Dhar",
+  "density": 268.0,
+  "lat": 22.5953,
+  "lon": 75.30061
+}, {
+  "district": "Dindori",
+  "hq": "Dindori",
+  "density": 94.0,
+  "lat": 22.94701,
+  "lon": 81.07506
+}, {
+  "district": "Guna",
+  "hq": "Guna",
+  "density": 194.0,
+  "lat": 24.64644,
+  "lon": 77.31091
+}, {
+  "district": "Gwalior",
+  "hq": "Gwalior",
+  "density": 445.0,
+  "lat": 26.22011,
+  "lon": 78.1762
+}, {
+  "district": "Harda",
+  "hq": "Harda",
+  "density": 171.0,
+  "lat": 22.34384,
+  "lon": 77.08973
+}, {
+  "district": "Hoshangabad",
+  "hq": "Hoshangabad",
+  "density": 185.0,
+  "lat": 22.74774,
+  "lon": 77.72742
+}, {
+  "district": "Indore",
+  "hq": "Indore",
+  "density": 839.0,
+  "lat": 22.71623,
+  "lon": 75.86512
+}, {
+  "district": "Jabalpur",
+  "hq": "Jabalpur",
+  "density": 472.0,
+  "lat": 23.17419,
+  "lon": 79.93137
+}, {
+  "district": "Jhabua",
+  "hq": "Jhabua",
+  "density": 285.0,
+  "lat": 22.76992,
+  "lon": 74.5975
+}, {
+  "district": "Katni",
+  "hq": "Katni",
+  "density": 261.0,
+  "lat": 23.82166,
+  "lon": 80.39914
+}, {
+  "district": "Khandwa (East Nimar)",
+  "hq": "Khandwa",
+  "density": 178.0,
+  "lat": 21.82123,
+  "lon": 76.35639
+}, {
+  "district": "Khargone (West Nimar)",
+  "hq": "Khargone",
+  "density": 233.0,
+  "lat": 21.82575,
+  "lon": 75.6213
+}, {
+  "district": "Maihar",
+  "hq": "Maihar",
+  "density": 0.0,
+  "lat": 24.25997,
+  "lon": 80.7621
+}, {
+  "district": "Mandla",
+  "hq": "Mandla",
+  "density": 182.0,
+  "lat": 22.60958,
+  "lon": 80.37007
+}, {
+  "district": "Mandsaur",
+  "hq": "Mandsaur",
+  "density": 242.0,
+  "lat": 24.07259,
+  "lon": 75.066
+}, {
+  "district": "Morena",
+  "hq": "Morena",
+  "density": 394.0,
+  "lat": 26.49052,
+  "lon": 77.98573
+}, {
+  "district": "Narsinghpur",
+  "hq": "Narsinghpur",
+  "density": 213.0,
+  "lat": 22.94579,
+  "lon": 79.19627
+}, {
+  "district": "Nagda",
+  "hq": "Nagda",
+  "density": 0.0,
+  "lat": 23.45225,
+  "lon": 75.4183
+}, {
+  "district": "Neemuch",
+  "hq": "Neemuch",
+  "density": 194.0,
+  "lat": 24.45854,
+  "lon": 74.86246
+}, {
+  "district": "Niwari",
+  "hq": "Niwari",
+  "density": 0.0,
+  "lat": 25.34976,
+  "lon": 78.8045
+}, {
+  "district": "Panna",
+  "hq": "Panna",
+  "density": 142.0,
+  "lat": 24.70797,
+  "lon": 80.17641
+}, {
+  "district": "Raisen",
+  "hq": "Raisen",
+  "density": 157.0,
+  "lat": 23.33011,
+  "lon": 77.78449
+}, {
+  "district": "Rajgarh",
+  "hq": "Rajgarh",
+  "density": 251.0,
+  "lat": 28.63095,
+  "lon": 75.38222
+}, {
+  "district": "Ratlam",
+  "hq": "Ratlam",
+  "density": 299.0,
+  "lat": 23.33353,
+  "lon": 75.04483
+}, {
+  "district": "Rewa",
+  "hq": "Rewa",
+  "density": 374.0,
+  "lat": 24.52594,
+  "lon": 81.30263
+}, {
+  "district": "Sagar",
+  "hq": "Sagar",
+  "density": 272.0,
+  "lat": 23.84316,
+  "lon": 78.74273
+}, {
+  "district": "Satna",
+  "hq": "Satna",
+  "density": 297.0,
+  "lat": 24.57605,
+  "lon": 80.8012
+}, {
+  "district": "Sehore",
+  "hq": "Sehore",
+  "density": 199.0,
+  "lat": 23.20107,
+  "lon": 77.07711
+}, {
+  "district": "Seoni",
+  "hq": "Seoni",
+  "density": 157.0,
+  "lat": 22.08386,
+  "lon": 79.5478
+}, {
+  "district": "Shahdol",
+  "hq": "Shahdol",
+  "density": 172.0,
+  "lat": 23.29373,
+  "lon": 81.4097
+}, {
+  "district": "Shajapur",
+  "hq": "Shajapur",
+  "density": 244.0,
+  "lat": 23.41999,
+  "lon": 76.28086
+}, {
+  "district": "Sheopur",
+  "hq": "Sheopur",
+  "density": 104.0,
+  "lat": 25.67335,
+  "lon": 76.69656
+}, {
+  "district": "Shivpuri",
+  "hq": "Shivpuri",
+  "density": 168.0,
+  "lat": 25.41922,
+  "lon": 77.65546
+}, {
+  "district": "Sidhi",
+  "hq": "Sidhi",
+  "density": 232.0,
+  "lat": 24.56235,
+  "lon": 82.24569
+}, {
+  "district": "Singrauli",
+  "hq": "Waidhan",
+  "density": 208.0,
+  "lat": 29.10052,
+  "lon": 81.2356
+}, {
+  "district": "Tikamgarh",
+  "hq": "Tikamgarh",
+  "density": 286.0,
+  "lat": 24.74432,
+  "lon": 78.83308
+}, {
+  "district": "Ujjain",
+  "hq": "Ujjain",
+  "density": 356.0,
+  "lat": 23.18088,
+  "lon": 75.78816
+}, {
+  "district": "Umaria",
+  "hq": "Umaria",
+  "density": 158.0,
+  "lat": 23.72167,
+  "lon": 81.01836
+}, {
+  "district": "Vidisha",
+  "hq": "Vidisha",
+  "density": 198.0,
+  "lat": 23.52141,
+  "lon": 77.8064
+}, {
+  "district": "Ahmednagar",
+  "hq": "Ahmednagar",
+  "density": 266.0,
+  "lat": 19.09206,
+  "lon": 74.73832
+}, {
+  "district": "Akola",
+  "hq": "Akola",
+  "density": 321.0,
+  "lat": 20.70617,
+  "lon": 77.0029
+}, {
+  "district": "Amravati",
+  "hq": "Amravati",
+  "density": 237.0,
+  "lat": 20.93352,
+  "lon": 77.75964
+}, {
+  "district": "Aurangabad",
+  "hq": "Aurangabad",
+  "density": 365.0,
+  "lat": 19.87013,
+  "lon": 75.34599
+}, {
+  "district": "Beed",
+  "hq": "Beed",
+  "density": 242.0,
+  "lat": 18.98954,
+  "lon": 75.75621
+}, {
+  "district": "Bhandara",
+  "hq": "Bhandara",
+  "density": 293.0,
+  "lat": 21.17119,
+  "lon": 79.65632
+}, {
+  "district": "Chandrapur",
+  "hq": "Chandrapur",
+  "density": 192.0,
+  "lat": 19.96652,
+  "lon": 79.29677
+}, {
+  "district": "Dhule",
+  "hq": "Dhule",
+  "density": 285.0,
+  "lat": 20.90292,
+  "lon": 74.77236
+}, {
+  "district": "Gadchiroli",
+  "hq": "Gadchiroli",
+  "density": 74.0,
+  "lat": 20.1826,
+  "lon": 80.00618
+}, {
+  "district": "Gondia",
+  "hq": "Gondia",
+  "density": 253.0,
+  "lat": 21.4588,
+  "lon": 80.19626
+}, {
+  "district": "Hingoli",
+  "hq": "Hingoli",
+  "density": 244.0,
+  "lat": 19.72155,
+  "lon": 77.15171
+}, {
+  "district": "Jalgaon",
+  "hq": "Jalgaon",
+  "density": 359.0,
+  "lat": 21.00359,
+  "lon": 75.56347
+}, {
+  "district": "Jalna",
+  "hq": "Jalna",
+  "density": 255.0,
+  "lat": 19.84803,
+  "lon": 75.89395
+}, {
+  "district": "Kolhapur",
+  "hq": "Kolhapur",
+  "density": 504.0,
+  "lat": 16.70444,
+  "lon": 74.24138
+}, {
+  "district": "Latur",
+  "hq": "Latur",
+  "density": 343.0,
+  "lat": 18.40027,
+  "lon": 76.56413
+}, {
+  "district": "Mumbai City",
+  "hq": "Mumbai",
+  "density": 20038.0,
+  "lat": 18.94017,
+  "lon": 72.83483
+}, {
+  "district": "Mumbai suburban",
+  "hq": "Bandra (East)",
+  "density": 20925.0,
+  "lat": 19.06396,
+  "lon": 72.8495
+}, {
+  "district": "Nanded",
+  "hq": "Nanded",
+  "density": 319.0,
+  "lat": 19.15566,
+  "lon": 77.31105
+}, {
+  "district": "Nandurbar",
+  "hq": "Nandurbar",
+  "density": 276.0,
+  "lat": 21.36851,
+  "lon": 74.24553
+}, {
+  "district": "Nagpur",
+  "hq": "Nagpur",
+  "density": 470.0,
+  "lat": 21.15706,
+  "lon": 79.08218
+}, {
+  "district": "Nashik",
+  "hq": "Nashik",
+  "density": 393.0,
+  "lat": 19.99503,
+  "lon": 73.79647
+}, {
+  "district": "Osmanabad",
+  "hq": "Osmanabad",
+  "density": 219.0,
+  "lat": 18.18531,
+  "lon": 76.04073
+}, {
+  "district": "Palghar",
+  "hq": "Palghar",
+  "density": 560.0,
+  "lat": 19.70023,
+  "lon": 72.77105
+}, {
+  "district": "Parbhani",
+  "hq": "Parbhani",
+  "density": 295.0,
+  "lat": 19.26077,
+  "lon": 76.77697
+}, {
+  "district": "Pune",
+  "hq": "Pune",
+  "density": 603.0,
+  "lat": 18.50422,
+  "lon": 73.85302
+}, {
+  "district": "Raigad",
+  "hq": "Alibag",
+  "density": 368.0,
+  "lat": 18.64755,
+  "lon": 72.8741
+}, {
+  "district": "Ratnagiri",
+  "hq": "Ratnagiri",
+  "density": 196.0,
+  "lat": 16.9922,
+  "lon": 73.2922
+}, {
+  "district": "Sangli",
+  "hq": "Sangli",
+  "density": 329.0,
+  "lat": 16.85082,
+  "lon": 74.58887
+}, {
+  "district": "Satara",
+  "hq": "Satara",
+  "density": 287.0,
+  "lat": 17.68634,
+  "lon": 74.00806
+}, {
+  "district": "Sindhudurg",
+  "hq": "Oros",
+  "density": 163.0,
+  "lat": -6.24471,
+  "lon": -38.91441
+}, {
+  "district": "Solapur",
+  "hq": "Solapur",
+  "density": 290.0,
+  "lat": 17.65805,
+  "lon": 75.90685
+}, {
+  "district": "Thane",
+  "hq": "Thane",
+  "density": 1157.0,
+  "lat": 19.1878,
+  "lon": 72.97258
+}, {
+  "district": "Wardha",
+  "hq": "Wardha",
+  "density": 205.0,
+  "lat": 20.73489,
+  "lon": 78.59774
+}, {
+  "district": "Washim",
+  "hq": "Washim",
+  "density": 244.0,
+  "lat": 20.10822,
+  "lon": 77.14093
+}, {
+  "district": "Yavatmal",
+  "hq": "Yavatmal",
+  "density": 204.0,
+  "lat": 20.38965,
+  "lon": 78.12734
+}, {
+  "district": "Bishnupur",
+  "hq": "Bishnupur",
+  "density": 415.0,
+  "lat": 23.06429,
+  "lon": 87.31049
+}, {
+  "district": "Chandel",
+  "hq": "Chandel",
+  "density": 37.0,
+  "lat": 24.33939,
+  "lon": 94.00621
+}, {
+  "district": "Churachandpur",
+  "hq": "Churachandpur",
+  "density": 50.0,
+  "lat": 24.34813,
+  "lon": 93.70105
+}, {
+  "district": "Imphal East",
+  "hq": "Porompat",
+  "density": 555.0,
+  "lat": 24.82256,
+  "lon": 93.98465
+}, {
+  "district": "Imphal West",
+  "hq": "Lamphelpat",
+  "density": 847.0,
+  "lat": 24.81882,
+  "lon": 93.91795
+}, {
+  "district": "Jiribam",
+  "hq": "Jiribam",
+  "density": 190.0,
+  "lat": 24.80444,
+  "lon": 93.11856
+}, {
+  "district": "Kakching",
+  "hq": "Kakching",
+  "density": 0.0,
+  "lat": 24.49917,
+  "lon": 93.97953
+}, {
+  "district": "Kamjong",
+  "hq": "Kamjong",
+  "density": 23.0,
+  "lat": 35.06388,
+  "lon": 126.19781
+}, {
+  "district": "Kangpokpi",
+  "hq": "Kangpokpi",
+  "density": 0.0,
+  "lat": 25.14728,
+  "lon": 93.9694
+}, {
+  "district": "Pherzawl",
+  "hq": "Pherzawl",
+  "density": 21.0,
+  "lat": 24.30732,
+  "lon": 93.18641
+}, {
+  "district": "Senapati",
+  "hq": "Senapati",
+  "density": 116.0,
+  "lat": 25.26868,
+  "lon": 94.02225
+}, {
+  "district": "Tamenglong",
+  "hq": "Tamenglong",
+  "density": 25.0,
+  "lat": 24.96538,
+  "lon": 93.49509
+}, {
+  "district": "Tengnoupal",
+  "hq": "Tengnoupal",
+  "density": 0.0,
+  "lat": 24.38574,
+  "lon": 94.14759
+}, {
+  "district": "Thoubal",
+  "hq": "Thoubal",
+  "density": 713.0,
+  "lat": 24.64331,
+  "lon": 93.99716
+}, {
+  "district": "Ukhrul",
+  "hq": "Ukhrul",
+  "density": 31.0,
+  "lat": 25.2729,
+  "lon": 94.69275
+}, {
+  "district": "East Garo Hills",
+  "hq": "Williamnagar",
+  "density": 121.0,
+  "lat": 25.51,
+  "lon": 90.60389
+}, {
+  "district": "East Khasi Hills",
+  "hq": "Shillong",
+  "density": 292.0,
+  "lat": 25.57309,
+  "lon": 91.88783
+}, {
+  "district": "East Jaintia Hills",
+  "hq": "Khliehriat",
+  "density": 58.0,
+  "lat": 25.36334,
+  "lon": 92.36144
+}, {
+  "district": "North Garo Hills",
+  "hq": "Resubelpara",
+  "density": 106.0,
+  "lat": 25.89922,
+  "lon": 90.61323
+}, {
+  "district": "Ri Bhoi",
+  "hq": "Nongpoh",
+  "density": 109.0,
+  "lat": 25.90878,
+  "lon": 91.87788
+}, {
+  "district": "South Garo Hills",
+  "hq": "Baghmara",
+  "density": 77.0,
+  "lat": 25.19782,
+  "lon": 90.63126
+}, {
+  "district": "South West Khasi Hills",
+  "hq": "Mawkyrwat",
+  "density": 82.0,
+  "lat": 25.36693,
+  "lon": 91.45059
+}, {
+  "district": "West Jaintia Hills",
+  "hq": "Jowai",
+  "density": 160.0,
+  "lat": 25.45413,
+  "lon": 92.20348
+}, {
+  "district": "West Garo Hills",
+  "hq": "Tura",
+  "density": 173.0,
+  "lat": 47.61169,
+  "lon": 19.59857
+}, {
+  "district": "West Khasi Hills",
+  "hq": "Nongstoin",
+  "density": 73.0,
+  "lat": 25.51965,
+  "lon": 91.26729
+}, {
+  "district": "Aizawl",
+  "hq": "Aizawl",
+  "density": 113.0,
+  "lat": 23.74129,
+  "lon": 92.71266
+}, {
+  "district": "Champhai",
+  "hq": "Champhai",
+  "density": 39.0,
+  "lat": 23.47809,
+  "lon": 93.32611
+}, {
+  "district": "Kolasib",
+  "hq": "Kolasib",
+  "density": 60.0,
+  "lat": 24.22647,
+  "lon": 92.6794
+}, {
+  "district": "Lawngtlai",
+  "hq": "Lawngtlai",
+  "density": 46.0,
+  "lat": 22.53189,
+  "lon": 92.89907
+}, {
+  "district": "Lunglei",
+  "hq": "Lunglei",
+  "density": 34.0,
+  "lat": 22.87654,
+  "lon": 92.75184
+}, {
+  "district": "Mamit",
+  "hq": "Mamit",
+  "density": 28.0,
+  "lat": 23.92142,
+  "lon": 92.49142
+}, {
+  "district": "Saiha",
+  "hq": "Saiha",
+  "density": 40.0,
+  "lat": 22.49007,
+  "lon": 92.98033
+}, {
+  "district": "Serchhip",
+  "hq": "Serchhip",
+  "density": 46.0,
+  "lat": 23.32584,
+  "lon": 92.85446
+}, {
+  "district": "Dimapur",
+  "hq": "Dimapur",
+  "density": 410.0,
+  "lat": 25.91397,
+  "lon": 93.72851
+}, {
+  "district": "Kiphire",
+  "hq": "Kiphire",
+  "density": 66.0,
+  "lat": 25.8887,
+  "lon": 94.78536
+}, {
+  "district": "Kohima",
+  "hq": "Kohima",
+  "density": 213.0,
+  "lat": 25.66289,
+  "lon": 94.09311
+}, {
+  "district": "Longleng",
+  "hq": "Longleng",
+  "density": 89.0,
+  "lat": 26.49462,
+  "lon": 94.82399
+}, {
+  "district": "Mokokchung",
+  "hq": "Mokokchung",
+  "density": 120.0,
+  "lat": 26.32326,
+  "lon": 94.51372
+}, {
+  "district": "Mon",
+  "hq": "Mon",
+  "density": 145.0,
+  "lat": 39.09154,
+  "lon": -104.87157
+}, {
+  "district": "Noklak",
+  "hq": "Noklak",
+  "density": 51.0,
+  "lat": 26.20896,
+  "lon": 95.02251
+}, {
+  "district": "Peren",
+  "hq": "Peren",
+  "density": 55.0,
+  "lat": 25.53259,
+  "lon": 93.73907
+}, {
+  "district": "Phek",
+  "hq": "Phek",
+  "density": 81.0,
+  "lat": 27.86676,
+  "lon": 83.40111
+}, {
+  "district": "Tuensang",
+  "hq": "Tuensang",
+  "density": 98.0,
+  "lat": 26.23348,
+  "lon": 94.81149
+}, {
+  "district": "Wokha",
+  "hq": "Wokha",
+  "density": 120.0,
+  "lat": 26.09275,
+  "lon": 94.25622
+}, {
+  "district": "Zunheboto",
+  "hq": "Zunheboto",
+  "density": 112.0,
+  "lat": 26.02268,
+  "lon": 94.53027
+}, {
+  "district": "Angul",
+  "hq": "Angul",
+  "density": 199.0,
+  "lat": 20.83925,
+  "lon": 85.10047
+}, {
+  "district": "Boudh (Bauda)",
+  "hq": "Boudh",
+  "density": 142.0,
+  "lat": 20.83859,
+  "lon": 84.32236
+}, {
+  "district": "Bhadrak",
+  "hq": "Bhadrak",
+  "density": 601.0,
+  "lat": 21.06327,
+  "lon": 86.49954
+}, {
+  "district": "Balangir",
+  "hq": "Balangir",
+  "density": 251.0,
+  "lat": 20.7064,
+  "lon": 83.48974
+}, {
+  "district": "Bargarh (Baragarh)",
+  "hq": "Bargarh",
+  "density": 253.0,
+  "lat": 21.33767,
+  "lon": 83.62123
+}, {
+  "district": "Balasore",
+  "hq": "Balasore",
+  "density": 609.0,
+  "lat": 21.50096,
+  "lon": 86.91809
+}, {
+  "district": "Cuttack",
+  "hq": "Cuttack",
+  "density": 666.0,
+  "lat": 20.46649,
+  "lon": 85.89613
+}, {
+  "district": "Debagarh (Deogarh)",
+  "hq": "Debagarh",
+  "density": 106.0,
+  "lat": 21.5382,
+  "lon": 84.73348
+}, {
+  "district": "Dhenkanal",
+  "hq": "Dhenkanal",
+  "density": 268.0,
+  "lat": 20.63789,
+  "lon": 85.58822
+}, {
+  "district": "Ganjam",
+  "hq": "Chhatrapur",
+  "density": 429.0,
+  "lat": 19.35832,
+  "lon": 84.97346
+}, {
+  "district": "Jharsuguda",
+  "hq": "Jharsuguda",
+  "density": 274.0,
+  "lat": 21.86528,
+  "lon": 84.02454
+}, {
+  "district": "Jajpur",
+  "hq": "Panikoili",
+  "density": 630.0,
+  "lat": 20.9148,
+  "lon": 86.22826
+}, {
+  "district": "Jagatsinghpur",
+  "hq": "Jagatsinghpur",
+  "density": 681.0,
+  "lat": 25.95897,
+  "lon": 85.72509
+}, {
+  "district": "Khordha",
+  "hq": "Khordha",
+  "density": 799.0,
+  "lat": 20.17422,
+  "lon": 85.61388
+}, {
+  "district": "Kendujhar (Keonjhar)",
+  "hq": "Kendujhar",
+  "density": 217.0,
+  "lat": 21.75274,
+  "lon": 85.5747
+}, {
+  "district": "Kalahandi",
+  "hq": "Bhawanipatna",
+  "density": 199.0,
+  "lat": 19.90586,
+  "lon": 83.1613
+}, {
+  "district": "Kandhamal",
+  "hq": "Phulbani",
+  "density": 91.0,
+  "lat": 20.54701,
+  "lon": 84.30551
+}, {
+  "district": "Koraput",
+  "hq": "Koraput",
+  "density": 156.0,
+  "lat": 18.81134,
+  "lon": 82.71254
+}, {
+  "district": "Kendrapara",
+  "hq": "Kendrapara",
+  "density": 545.0,
+  "lat": 20.50612,
+  "lon": 86.42108
+}, {
+  "district": "Malkangiri",
+  "hq": "Malkangiri",
+  "density": 106.0,
+  "lat": 18.35907,
+  "lon": 81.88701
+}, {
+  "district": "Mayurbhanj",
+  "hq": "Baripada",
+  "density": 241.0,
+  "lat": 21.92378,
+  "lon": 86.73844
+}, {
+  "district": "Nuapada",
+  "hq": "Nuapada",
+  "density": 157.0,
+  "lat": 20.77651,
+  "lon": 82.54609
+}, {
+  "district": "Nayagarh",
+  "hq": "Nayagarh",
+  "density": 247.0,
+  "lat": 20.1313,
+  "lon": 85.12828
+}, {
+  "district": "Puri",
+  "hq": "Puri",
+  "density": 488.0,
+  "lat": 19.80811,
+  "lon": 85.83338
+}, {
+  "district": "Rayagada",
+  "hq": "Rayagada",
+  "density": 136.0,
+  "lat": 19.17322,
+  "lon": 83.4122
+}, {
+  "district": "Sambalpur",
+  "hq": "Sambalpur",
+  "density": 158.0,
+  "lat": 21.47767,
+  "lon": 83.97602
+}, {
+  "district": "Subarnapur (Sonepur)",
+  "hq": "Subarnapur",
+  "density": 279.0,
+  "lat": 20.84729,
+  "lon": 83.8931
+}, {
+  "district": "Sundargarh",
+  "hq": "Sundargarh",
+  "density": 214.0,
+  "lat": 22.11958,
+  "lon": 84.04162
+}, {
+  "district": "Amritsar",
+  "hq": "Amritsar",
+  "density": 932.0,
+  "lat": 31.63347,
+  "lon": 74.87508
+}, {
+  "district": "Barnala",
+  "hq": "Barnala",
+  "density": 419.0,
+  "lat": 30.35996,
+  "lon": 75.53278
+}, {
+  "district": "Bathinda",
+  "hq": "Bathinda",
+  "density": 414.0,
+  "lat": 30.2114,
+  "lon": 74.94523
+}, {
+  "district": "Firozpur",
+  "hq": "Firozpur",
+  "density": 380.0,
+  "lat": 30.93001,
+  "lon": 74.61766
+}, {
+  "district": "Faridkot",
+  "hq": "Faridkot",
+  "density": 424.0,
+  "lat": 30.65548,
+  "lon": 74.76948
+}, {
+  "district": "Fatehgarh Sahib",
+  "hq": "Fatehgarh Sahib",
+  "density": 508.0,
+  "lat": 30.66392,
+  "lon": 76.30105
+}, {
+  "district": "Fazilka[13]",
+  "hq": "Fazilka",
+  "density": 379.0,
+  "lat": 30.40897,
+  "lon": 74.03481
+}, {
+  "district": "Gurdaspur",
+  "hq": "Gurdaspur",
+  "density": 649.0,
+  "lat": 32.04089,
+  "lon": 75.40136
+}, {
+  "district": "Hoshiarpur",
+  "hq": "Hoshiarpur",
+  "density": 466.0,
+  "lat": 31.53242,
+  "lon": 75.90528
+}, {
+  "district": "Jalandhar",
+  "hq": "Jalandhar",
+  "density": 831.0,
+  "lat": 31.33082,
+  "lon": 75.59008
+}, {
+  "district": "Kapurthala",
+  "hq": "Kapurthala",
+  "density": 501.0,
+  "lat": 31.37775,
+  "lon": 75.39097
+}, {
+  "district": "Ludhiana",
+  "hq": "Ludhiana",
+  "density": 975.0,
+  "lat": 30.90726,
+  "lon": 75.84919
+}, {
+  "district": "Mansa",
+  "hq": "Mansa",
+  "density": 350.0,
+  "lat": -11.19808,
+  "lon": 28.88969
+}, {
+  "district": "Moga",
+  "hq": "Moga",
+  "density": 444.0,
+  "lat": 30.81885,
+  "lon": 75.17772
+}, {
+  "district": "Sri Muktsar Sahib",
+  "hq": "Sri Muktsar Sahib",
+  "density": 348.0,
+  "lat": 30.46777,
+  "lon": 74.51816
+}, {
+  "district": "Pathankot",
+  "hq": "Pathankot",
+  "density": 674.0,
+  "lat": 32.27057,
+  "lon": 75.64907
+}, {
+  "district": "Patiala",
+  "hq": "Patiala",
+  "density": 596.0,
+  "lat": 30.34485,
+  "lon": 76.40001
+}, {
+  "district": "Rupnagar",
+  "hq": "Rupnagar",
+  "density": 488.0,
+  "lat": 30.97297,
+  "lon": 76.53273
+}, {
+  "district": "Sahibzada Ajit Singh Nagar",
+  "hq": "Mohali",
+  "density": 830.0,
+  "lat": 30.70347,
+  "lon": 76.69162
+}, {
+  "district": "Sangrur",
+  "hq": "Sangrur",
+  "density": 449.0,
+  "lat": 30.25109,
+  "lon": 75.83437
+}, {
+  "district": "Shahid Bhagat Singh Nagar",
+  "hq": "Nawanshahr",
+  "density": 479.0,
+  "lat": 31.12447,
+  "lon": 76.11853
+}, {
+  "district": "Ajmer",
+  "hq": "Ajmer",
+  "density": 305.0,
+  "lat": 26.46554,
+  "lon": 74.63169
+}, {
+  "district": "Alwar",
+  "hq": "Alwar",
+  "density": 438.0,
+  "lat": 27.55609,
+  "lon": 76.61235
+}, {
+  "district": "Bikaner",
+  "hq": "Bikaner",
+  "density": 78.0,
+  "lat": 28.01648,
+  "lon": 73.31184
+}, {
+  "district": "Barmer",
+  "hq": "Barmer",
+  "density": 92.0,
+  "lat": 25.75199,
+  "lon": 71.41382
+}, {
+  "district": "Banswara",
+  "hq": "Banswara",
+  "density": 399.0,
+  "lat": 23.55173,
+  "lon": 74.44429
+}, {
+  "district": "Bharatpur",
+  "hq": "Bharatpur",
+  "density": 503.0,
+  "lat": 27.21088,
+  "lon": 77.48155
+}, {
+  "district": "Baran",
+  "hq": "Baran",
+  "density": 175.0,
+  "lat": 25.09607,
+  "lon": 76.50895
+}, {
+  "district": "Bundi",
+  "hq": "Bundi",
+  "density": 193.0,
+  "lat": 25.43425,
+  "lon": 75.63661
+}, {
+  "district": "Bhilwara",
+  "hq": "Bhilwara",
+  "density": 230.0,
+  "lat": 25.35188,
+  "lon": 74.63226
+}, {
+  "district": "Churu",
+  "hq": "Churu",
+  "density": 148.0,
+  "lat": 28.29309,
+  "lon": 74.97286
+}, {
+  "district": "Dausa",
+  "hq": "Dausa",
+  "density": 476.0,
+  "lat": 26.89966,
+  "lon": 76.33038
+}, {
+  "district": "Dholpur",
+  "hq": "Dholpur",
+  "density": 398.0,
+  "lat": 22.22527,
+  "lon": 82.61828
+}, {
+  "district": "Dungarpur",
+  "hq": "Dungarpur",
+  "density": 368.0,
+  "lat": 23.84166,
+  "lon": 73.71441
+}, {
+  "district": "Ganganagar",
+  "hq": "Ganganagar",
+  "density": 179.0,
+  "lat": 25.4541,
+  "lon": 87.7833
+}, {
+  "district": "Hanumangarh",
+  "hq": "Hanumangarh",
+  "density": 184.0,
+  "lat": 29.61027,
+  "lon": 74.29479
+}, {
+  "district": "Jhunjhunu",
+  "hq": "Jhunjhunu",
+  "density": 361.0,
+  "lat": 28.12565,
+  "lon": 75.40041
+}, {
+  "district": "Jodhpur",
+  "hq": "Jodhpur",
+  "density": 161.0,
+  "lat": 26.26691,
+  "lon": 73.03053
+}, {
+  "district": "Jaipur",
+  "hq": "Jaipur",
+  "density": 598.0,
+  "lat": 26.92575,
+  "lon": 75.80659
+}, {
+  "district": "Jaisalmer",
+  "hq": "Jaisalmer",
+  "density": 17.0,
+  "lat": 26.91947,
+  "lon": 70.91431
+}, {
+  "district": "Jhalawar",
+  "hq": "Jhalawar",
+  "density": 227.0,
+  "lat": 24.5898,
+  "lon": 76.16002
+}, {
+  "district": "Karauli",
+  "hq": "Karauli",
+  "density": 264.0,
+  "lat": 26.48425,
+  "lon": 77.01885
+}, {
+  "district": "Kota",
+  "hq": "Kota",
+  "density": 374.0,
+  "lat": 25.16532,
+  "lon": 75.85123
+}, {
+  "district": "Nagaur",
+  "hq": "Nagaur",
+  "density": 187.0,
+  "lat": 27.20167,
+  "lon": 73.73203
+}, {
+  "district": "Pali",
+  "hq": "Pali",
+  "density": 165.0,
+  "lat": 25.78889,
+  "lon": 73.32859
+}, {
+  "district": "Pratapgarh",
+  "hq": "Pratapgarh",
+  "density": 211.0,
+  "lat": 25.89549,
+  "lon": 81.94783
+}, {
+  "district": "Rajsamand",
+  "hq": "Rajsamand",
+  "density": 302.0,
+  "lat": 25.05946,
+  "lon": 73.88316
+}, {
+  "district": "Sikar",
+  "hq": "Sikar",
+  "density": 346.0,
+  "lat": 27.61456,
+  "lon": 75.14117
+}, {
+  "district": "Sawai Madhopur",
+  "hq": "Sawai Madhopur",
+  "density": 257.0,
+  "lat": 26.01053,
+  "lon": 76.35776
+}, {
+  "district": "Sirohi",
+  "hq": "Sirohi",
+  "density": 202.0,
+  "lat": 24.8903,
+  "lon": 72.85646
+}, {
+  "district": "Tonk",
+  "hq": "Tonk",
+  "density": 198.0,
+  "lat": 26.16114,
+  "lon": 75.78626
+}, {
+  "district": "Udaipur",
+  "hq": "Udaipur",
+  "density": 242.0,
+  "lat": 24.587,
+  "lon": 73.69849
+}, {
+  "district": "East Sikkim",
+  "hq": "Gangtok",
+  "density": 295.0,
+  "lat": 27.33153,
+  "lon": 88.61397
+}, {
+  "district": "North Sikkim",
+  "hq": "Mangan",
+  "density": 10.0,
+  "lat": 27.4954,
+  "lon": 88.53607
+}, {
+  "district": "South Sikkim",
+  "hq": "Namchi",
+  "density": 196.0,
+  "lat": 27.16704,
+  "lon": 88.36549
+}, {
+  "district": "West Sikkim",
+  "hq": "Geyzing",
+  "density": 117.0,
+  "lat": 27.29264,
+  "lon": 88.25524
+}, {
+  "district": "Ariyalur",
+  "hq": "Ariyalur",
+  "density": 387.0,
+  "lat": 11.13928,
+  "lon": 79.08428
+}, {
+  "district": "Chengalpattu",
+  "hq": "Chengalpattu",
+  "density": 868.0,
+  "lat": 12.68225,
+  "lon": 79.98008
+}, {
+  "district": "Chennai",
+  "hq": "Chennai",
+  "density": 17000.0,
+  "lat": 13.08363,
+  "lon": 80.28252
+}, {
+  "district": "Coimbatore",
+  "hq": "Coimbatore",
+  "density": 748.0,
+  "lat": 10.99416,
+  "lon": 76.96629
+}, {
+  "district": "Cuddalore",
+  "hq": "Cuddalore",
+  "density": 702.0,
+  "lat": 11.74515,
+  "lon": 79.75893
+}, {
+  "district": "Dharmapuri",
+  "hq": "Dharmapuri",
+  "density": 332.0,
+  "lat": 18.94367,
+  "lon": 79.09496
+}, {
+  "district": "Dindigul",
+  "hq": "Dindigul",
+  "density": 357.0,
+  "lat": 10.36205,
+  "lon": 77.96951
+}, {
+  "district": "Erode",
+  "hq": "Erode",
+  "density": 397.0,
+  "lat": 11.34066,
+  "lon": 77.71723
+}, {
+  "district": "Kallakurichi",
+  "hq": "Kallakurichi",
+  "density": 389.0,
+  "lat": 11.77531,
+  "lon": 78.92174
+}, {
+  "district": "Kanchipuram",
+  "hq": "Kanchipuram",
+  "density": 704.0,
+  "lat": 15.39222,
+  "lon": 79.52276
+}, {
+  "district": "Kanyakumari",
+  "hq": "Nagercoil",
+  "density": 1106.0,
+  "lat": 8.16864,
+  "lon": 77.43173
+}, {
+  "district": "Karur",
+  "hq": "Karur",
+  "density": 371.0,
+  "lat": 10.95922,
+  "lon": 78.07722
+}, {
+  "district": "Krishnagiri",
+  "hq": "Krishnagiri",
+  "density": 370.0,
+  "lat": 12.52646,
+  "lon": 78.21409
+}, {
+  "district": "Madurai",
+  "hq": "Madurai",
+  "density": 823.0,
+  "lat": 9.92417,
+  "lon": 78.12416
+}, {
+  "district": "Mayiladuthurai",
+  "hq": "Mayiladuthurai",
+  "density": 0.0,
+  "lat": 11.10107,
+  "lon": 79.64955
+}, {
+  "district": "Nagapattinam",
+  "hq": "Nagapattinam",
+  "density": 668.0,
+  "lat": 10.7769,
+  "lon": 79.8406
+}, {
+  "district": "Nilgiris",
+  "hq": "Ooty",
+  "density": 288.0,
+  "lat": 11.40654,
+  "lon": 76.70331
+}, {
+  "district": "Namakkal",
+  "hq": "Namakkal",
+  "density": 506.0,
+  "lat": 11.21932,
+  "lon": 78.16765
+}, {
+  "district": "Perambalur",
+  "hq": "Perambalur",
+  "density": 323.0,
+  "lat": 11.23408,
+  "lon": 78.88025
+}, {
+  "district": "Pudukkottai",
+  "hq": "Pudukkottai",
+  "density": 348.0,
+  "lat": 10.38487,
+  "lon": 78.79294
+}, {
+  "district": "Ramanathapuram",
+  "hq": "Ramanathapuram",
+  "density": 320.0,
+  "lat": 9.36022,
+  "lon": 78.83725
+}, {
+  "district": "Ranipet",
+  "hq": "Ranipet",
+  "density": 524.0,
+  "lat": 12.9193,
+  "lon": 79.33867
+}, {
+  "district": "Salem",
+  "hq": "Salem",
+  "density": 663.0,
+  "lat": 11.66553,
+  "lon": 78.15165
+}, {
+  "district": "Sivaganga",
+  "hq": "Sivaganga",
+  "density": 324.0,
+  "lat": 9.85021,
+  "lon": 78.4856
+}, {
+  "district": "Tenkasi",
+  "hq": "Tenkasi",
+  "density": 483.0,
+  "lat": 8.96351,
+  "lon": 77.30821
+}, {
+  "district": "Tiruchirappalli",
+  "hq": "Tiruchirappalli",
+  "density": 602.0,
+  "lat": 10.80592,
+  "lon": 78.69474
+}, {
+  "district": "Theni",
+  "hq": "Theni",
+  "density": 433.0,
+  "lat": 10.0102,
+  "lon": 77.47707
+}, {
+  "district": "Tirunelveli",
+  "hq": "Tirunelveli",
+  "density": 433.0,
+  "lat": 8.72641,
+  "lon": 77.7335
+}, {
+  "district": "Thanjavur",
+  "hq": "Thanjavur",
+  "density": 691.0,
+  "lat": 10.76857,
+  "lon": 79.12899
+}, {
+  "district": "Tirupattur",
+  "hq": "Tirupattur",
+  "density": 620.0,
+  "lat": 12.4952,
+  "lon": 78.56801
+}, {
+  "district": "Tiruvallur",
+  "hq": "Tiruvallur",
+  "density": 1049.0,
+  "lat": 9.66296,
+  "lon": 78.58556
+}, {
+  "district": "Tiruvannamalai",
+  "hq": "Tiruvannaamalai",
+  "density": 399.0,
+  "lat": 12.23528,
+  "lon": 79.07477
+}, {
+  "district": "Vellore",
+  "hq": "Vellore",
+  "density": 776.0,
+  "lat": 12.91356,
+  "lon": 79.13252
+}, {
+  "district": "Viluppuram",
+  "hq": "Viluppuram",
+  "density": 562.0,
+  "lat": 11.93783,
+  "lon": 79.50212
+}, {
+  "district": "Virudhunagar",
+  "hq": "Virudhunagar",
+  "density": 454.0,
+  "lat": 9.58904,
+  "lon": 77.95367
+}, {
+  "district": "Adilabad",
+  "hq": "Adilabad",
+  "density": 171.0,
+  "lat": 19.67715,
+  "lon": 78.53309
+}, {
+  "district": "Komaram Bheem",
+  "hq": "Komaram Bheem",
+  "density": 106.0,
+  "lat": 19.34958,
+  "lon": 79.48057
+}, {
+  "district": "Bhadradri Kothagudem",
+  "hq": "Kothagudem",
+  "density": 143.0,
+  "lat": 17.5433,
+  "lon": 80.61901
+}, {
+  "district": "Hyderabad",
+  "hq": "Hyderabad",
+  "density": 18172.0,
+  "lat": 17.39488,
+  "lon": 78.47077
+}, {
+  "district": "Jagtial",
+  "hq": "Jagtial",
+  "density": 407.0,
+  "lat": 18.7883,
+  "lon": 78.9141
+}, {
+  "district": "Jangaon",
+  "hq": "Jangaon",
+  "density": 259.0,
+  "lat": 17.72324,
+  "lon": 79.16095
+}, {
+  "district": "Jayashankar Bhupalpally",
+  "hq": "Bhupalpalle",
+  "density": 115.0,
+  "lat": 18.43903,
+  "lon": 79.8683
+}, {
+  "district": "Jogulamba Gadwal",
+  "hq": "Gadwal",
+  "density": 208.0,
+  "lat": 16.23425,
+  "lon": 77.79975
+}, {
+  "district": "Kamareddy",
+  "hq": "Kamareddy",
+  "density": 266.0,
+  "lat": 18.33273,
+  "lon": 78.34374
+}, {
+  "district": "Karimnagar",
+  "hq": "Karimnagar",
+  "density": 473.0,
+  "lat": 18.43699,
+  "lon": 79.13118
+}, {
+  "district": "Khammam",
+  "hq": "Khammam",
+  "density": 321.0,
+  "lat": 17.25088,
+  "lon": 80.15742
+}, {
+  "district": "Mahabubabad",
+  "hq": "Mahabubabad",
+  "density": 269.0,
+  "lat": 17.59606,
+  "lon": 80.0008
+}, {
+  "district": "Mahbubnagar",
+  "hq": "Mahbubnagar",
+  "density": 281.0,
+  "lat": 16.74909,
+  "lon": 77.99641
+}, {
+  "district": "Mancherial",
+  "hq": "Mancherial",
+  "density": 201.0,
+  "lat": 18.87155,
+  "lon": 79.44342
+}, {
+  "district": "Medak",
+  "hq": "Medak",
+  "density": 275.0,
+  "lat": 18.04749,
+  "lon": 78.26676
+}, {
+  "district": "Medchal-Malkajgiri",
+  "hq": "Shamirpet",
+  "density": 2251.0,
+  "lat": 17.59665,
+  "lon": 78.57302
+}, {
+  "district": "Mulugu",
+  "hq": "Mulugu",
+  "density": 124.0,
+  "lat": 17.74405,
+  "lon": 78.62941
+}, {
+  "district": "Nalgonda",
+  "hq": "Nalgonda",
+  "density": 227.0,
+  "lat": 17.05713,
+  "lon": 79.26848
+}, {
+  "district": "Narayanpet",
+  "hq": "Narayanpet",
+  "density": 243.0,
+  "lat": 16.74753,
+  "lon": 77.4959
+}, {
+  "district": "Nagarkurnool",
+  "hq": "Nagarkurnool",
+  "density": 124.0,
+  "lat": 16.48678,
+  "lon": 78.31292
+}, {
+  "district": "Nirmal",
+  "hq": "Nirmal",
+  "density": 185.0,
+  "lat": 19.08684,
+  "lon": 78.33974
+}, {
+  "district": "Nizamabad",
+  "hq": "Nizamabad",
+  "density": 366.0,
+  "lat": 26.05929,
+  "lon": 83.05568
+}, {
+  "district": "Peddapalli",
+  "hq": "Peddapalle",
+  "density": 356.0,
+  "lat": 18.60945,
+  "lon": 79.38166
+}, {
+  "district": "Rajanna Sircilla",
+  "hq": "Sircilla",
+  "density": 273.0,
+  "lat": 18.39125,
+  "lon": 78.80942
+}, {
+  "district": "Ranga Reddy",
+  "hq": "Shamshabad",
+  "density": 486.0,
+  "lat": 17.25191,
+  "lon": 78.29358
+}, {
+  "district": "Sangareddy",
+  "hq": "Sangareddy",
+  "density": 347.0,
+  "lat": 17.62517,
+  "lon": 78.08241
+}, {
+  "district": "Siddipet",
+  "hq": "Siddipet",
+  "density": 279.0,
+  "lat": 18.102,
+  "lon": 78.84294
+}, {
+  "district": "Suryapet",
+  "hq": "Suryapet",
+  "density": 305.0,
+  "lat": 17.15244,
+  "lon": 79.62124
+}, {
+  "district": "Vikarabad",
+  "hq": "Vikarabad",
+  "density": 274.0,
+  "lat": 17.33671,
+  "lon": 77.90484
+}, {
+  "district": "Wanaparthy",
+  "hq": "Wanaparthy",
+  "density": 268.0,
+  "lat": 16.36145,
+  "lon": 78.06525
+}, {
+  "district": "Warangal Urban",
+  "hq": "Warangal",
+  "density": 826.0,
+  "lat": 17.98405,
+  "lon": 79.60205
+}, {
+  "district": "Warangal Rural",
+  "hq": "Geesugonda",
+  "density": 330.0,
+  "lat": 17.96635,
+  "lon": 79.69741
+}, {
+  "district": "Yadadri Bhuvanagiri",
+  "hq": "Bhongiri",
+  "density": 239.0,
+  "lat": 17.51484,
+  "lon": 78.8839
+}, {
+  "district": "Dhalai",
+  "hq": "Ambassa",
+  "density": 157.0,
+  "lat": 23.92629,
+  "lon": 91.84384
+}, {
+  "district": "Gomati",
+  "hq": "Udaipur, Tripura",
+  "density": 287.0,
+  "lat": 23.54137,
+  "lon": 91.49212
+}, {
+  "district": "Khowai[14]",
+  "hq": "Khowai",
+  "density": 326.0,
+  "lat": 24.07105,
+  "lon": 91.60231
+}, {
+  "district": "North Tripura",
+  "hq": "Dharmanagar",
+  "density": 288.0,
+  "lat": 24.37691,
+  "lon": 92.16068
+}, {
+  "district": "Sepahijala[15]",
+  "hq": "Bishramganj",
+  "density": 463.0,
+  "lat": 24.84014,
+  "lon": 80.26714
+}, {
+  "district": "South Tripura",
+  "hq": "Belonia",
+  "density": 283.0,
+  "lat": 23.24987,
+  "lon": 91.46732
+}, {
+  "district": "Unokoti[16]",
+  "hq": "Kailashahar",
+  "density": 469.0,
+  "lat": 24.31831,
+  "lon": 92.00303
+}, {
+  "district": "West Tripura",
+  "hq": "Agartala",
+  "density": 973.0,
+  "lat": 23.82921,
+  "lon": 91.29059
+}, {
+  "district": "Agra",
+  "hq": "Agra",
+  "density": 1084.0,
+  "lat": 27.19217,
+  "lon": 78.00008
+}, {
+  "district": "Aligarh",
+  "hq": "Aligarh",
+  "density": 1007.0,
+  "lat": 27.88626,
+  "lon": 78.07383
+}, {
+  "district": "Allahabad",
+  "hq": "Allahabad",
+  "density": 1087.0,
+  "lat": 25.43609,
+  "lon": 81.84718
+}, {
+  "district": "Ambedkar Nagar",
+  "hq": "Akbarpur",
+  "density": 1021.0,
+  "lat": 24.74795,
+  "lon": 85.55308
+}, {
+  "district": "Amethi",
+  "hq": "Gauriganj",
+  "density": 830.0,
+  "lat": 26.20695,
+  "lon": 81.68292
+}, {
+  "district": "Amroha",
+  "hq": "Amroha",
+  "density": 818.0,
+  "lat": 28.87697,
+  "lon": 78.46851
+}, {
+  "district": "Auraiya",
+  "hq": "Auraiya",
+  "density": 681.0,
+  "lat": 26.46032,
+  "lon": 79.51097
+}, {
+  "district": "Azamgarh",
+  "hq": "Azamgarh",
+  "density": 1139.0,
+  "lat": 26.07361,
+  "lon": 83.18596
+}, {
+  "district": "Bagpat",
+  "hq": "Baghpat",
+  "density": 986.0,
+  "lat": 28.94514,
+  "lon": 77.22076
+}, {
+  "district": "Bahraich",
+  "hq": "Bahraich",
+  "density": 415.0,
+  "lat": 27.57683,
+  "lon": 81.60252
+}, {
+  "district": "Ballia",
+  "hq": "Ballia",
+  "density": 1081.0,
+  "lat": 25.75827,
+  "lon": 84.14792
+}, {
+  "district": "Balrampur",
+  "hq": "Balrampur",
+  "density": 642.0,
+  "lat": 25.74241,
+  "lon": 87.94637
+}, {
+  "district": "Banda",
+  "hq": "Banda",
+  "density": 404.0,
+  "lat": 25.48135,
+  "lon": 80.33218
+}, {
+  "district": "Barabanki",
+  "hq": "Barabanki",
+  "density": 739.0,
+  "lat": 26.92663,
+  "lon": 81.19686
+}, {
+  "district": "Bareilly",
+  "hq": "Bareilly",
+  "density": 1084.0,
+  "lat": 28.35433,
+  "lon": 79.41616
+}, {
+  "district": "Basti",
+  "hq": "Basti",
+  "density": 916.0,
+  "lat": 26.79684,
+  "lon": 82.73989
+}, {
+  "district": "Bhadohi",
+  "hq": "Gyanpur",
+  "density": 1531.0,
+  "lat": 25.31619,
+  "lon": 82.4507
+}, {
+  "district": "Bijnor",
+  "hq": "Bijnor",
+  "density": 808.0,
+  "lat": 29.3732,
+  "lon": 78.13566
+}, {
+  "district": "Budaun",
+  "hq": "Budaun",
+  "density": 718.0,
+  "lat": 28.03643,
+  "lon": 79.12301
+}, {
+  "district": "Bulandshahr",
+  "hq": "Bulandshahr",
+  "density": 788.0,
+  "lat": 28.40719,
+  "lon": 77.84909
+}, {
+  "district": "Chandauli",
+  "hq": "Chandauli",
+  "density": 768.0,
+  "lat": 25.26037,
+  "lon": 83.26787
+}, {
+  "district": "Chitrakoot",
+  "hq": "Karwi",
+  "density": 315.0,
+  "lat": 25.21387,
+  "lon": 80.91901
+}, {
+  "district": "Deoria",
+  "hq": "Deoria",
+  "density": 1220.0,
+  "lat": 26.50249,
+  "lon": 83.77918
+}, {
+  "district": "Etah",
+  "hq": "Etah",
+  "density": 717.0,
+  "lat": 27.57365,
+  "lon": 78.65229
+}, {
+  "district": "Etawah",
+  "hq": "Etawah",
+  "density": 683.0,
+  "lat": 26.78198,
+  "lon": 79.02847
+}, {
+  "district": "Faizabad",
+  "hq": "Faizabad",
+  "density": 1054.0,
+  "lat": 26.7728,
+  "lon": 82.14628
+}, {
+  "district": "Farrukhabad",
+  "hq": "Fatehgarh",
+  "density": 865.0,
+  "lat": 26.64583,
+  "lon": 71.20987
+}, {
+  "district": "Fatehpur",
+  "hq": "Fatehpur",
+  "density": 634.0,
+  "lat": 25.91769,
+  "lon": 80.80131
+}, {
+  "district": "Firozabad",
+  "hq": "Firozabad",
+  "density": 1044.0,
+  "lat": 27.15913,
+  "lon": 78.39579
+}, {
+  "district": "Gautam Buddh Nagar",
+  "hq": "Noida",
+  "density": 1252.0,
+  "lat": 28.53342,
+  "lon": 77.3819
+}, {
+  "district": "Ghaziabad",
+  "hq": "Ghaziabad",
+  "density": 3967.0,
+  "lat": 28.67816,
+  "lon": 77.40861
+}, {
+  "district": "Ghazipur",
+  "hq": "Ghazipur",
+  "density": 1072.0,
+  "lat": 25.57995,
+  "lon": 83.57047
+}, {
+  "district": "Gonda",
+  "hq": "Gonda",
+  "density": 857.0,
+  "lat": 27.13582,
+  "lon": 81.95977
+}, {
+  "district": "Gorakhpur",
+  "hq": "Gorakhpur",
+  "density": 1336.0,
+  "lat": 26.75432,
+  "lon": 83.37557
+}, {
+  "district": "Hamirpur",
+  "hq": "Hamirpur",
+  "density": 268.0,
+  "lat": 25.96085,
+  "lon": 80.14531
+}, {
+  "district": "Hapur",
+  "hq": "Hapur",
+  "density": 2028.0,
+  "lat": 28.73066,
+  "lon": 77.77597
+}, {
+  "district": "Hardoi",
+  "hq": "Hardoi",
+  "density": 683.0,
+  "lat": 27.3974,
+  "lon": 80.12614
+}, {
+  "district": "Hathras",
+  "hq": "Hathras",
+  "density": 851.0,
+  "lat": 27.59854,
+  "lon": 78.05268
+}, {
+  "district": "Jalaun",
+  "hq": "Orai",
+  "density": 366.0,
+  "lat": 25.98665,
+  "lon": 79.45085
+}, {
+  "district": "Jaunpur",
+  "hq": "Jaunpur",
+  "density": 1108.0,
+  "lat": 25.74508,
+  "lon": 82.68238
+}, {
+  "district": "Jhansi",
+  "hq": "Jhansi",
+  "density": 398.0,
+  "lat": 25.44859,
+  "lon": 78.56956
+}, {
+  "district": "Kannauj",
+  "hq": "Kannauj",
+  "density": 792.0,
+  "lat": 27.03158,
+  "lon": 79.92119
+}, {
+  "district": "Kanpur Dehat",
+  "hq": "Akbarpur",
+  "density": 594.0,
+  "lat": 24.74795,
+  "lon": 85.55308
+}, {
+  "district": "Kanpur Nagar",
+  "hq": "Kanpur",
+  "density": 1415.0,
+  "lat": 26.43562,
+  "lon": 80.32987
+}, {
+  "district": "Kasganj",
+  "hq": "Kasganj",
+  "density": 736.0,
+  "lat": 27.81289,
+  "lon": 78.65016
+}, {
+  "district": "Kaushambi",
+  "hq": "Manjhanpur",
+  "density": 897.0,
+  "lat": 25.53139,
+  "lon": 81.37859
+}, {
+  "district": "Kushinagar",
+  "hq": "Padrauna",
+  "density": 1226.0,
+  "lat": 26.90167,
+  "lon": 83.9838
+}, {
+  "district": "Lakhimpur Kheri",
+  "hq": "Lakhimpur",
+  "density": 523.0,
+  "lat": 27.94815,
+  "lon": 80.77777
+}, {
+  "district": "Lalitpur",
+  "hq": "Lalitpur",
+  "density": 242.0,
+  "lat": 27.66617,
+  "lon": 85.30976
+}, {
+  "district": "Lucknow",
+  "hq": "Lucknow",
+  "density": 1815.0,
+  "lat": 26.85472,
+  "lon": 80.92135
+}, {
+  "district": "Maharajganj",
+  "hq": "Maharajganj",
+  "density": 903.0,
+  "lat": 27.1445,
+  "lon": 83.56237
+}, {
+  "district": "Mahoba",
+  "hq": "Mahoba",
+  "density": 288.0,
+  "lat": 25.29165,
+  "lon": 79.87111
+}, {
+  "district": "Mainpuri",
+  "hq": "Mainpuri",
+  "density": 670.0,
+  "lat": 27.22814,
+  "lon": 79.02501
+}, {
+  "district": "Mathura",
+  "hq": "Mathura",
+  "density": 761.0,
+  "lat": 27.49186,
+  "lon": 77.67421
+}, {
+  "district": "Mau",
+  "hq": "Mau",
+  "density": 1287.0,
+  "lat": 25.27065,
+  "lon": 81.37455
+}, {
+  "district": "Meerut",
+  "hq": "Meerut",
+  "density": 1342.0,
+  "lat": 28.99861,
+  "lon": 77.70442
+}, {
+  "district": "Mirzapur",
+  "hq": "Mirzapur",
+  "density": 561.0,
+  "lat": 24.10528,
+  "lon": 90.09851
+}, {
+  "district": "Moradabad",
+  "hq": "Moradabad",
+  "density": 1284.0,
+  "lat": 28.8395,
+  "lon": 78.75989
+}, {
+  "district": "Muzaffarnagar",
+  "hq": "Muzaffarnagar",
+  "density": 1033.0,
+  "lat": 29.4703,
+  "lon": 77.70759
+}, {
+  "district": "Pilibhit",
+  "hq": "Pilibhit",
+  "density": 567.0,
+  "lat": 28.6267,
+  "lon": 79.80515
+}, {
+  "district": "Pratapgarh",
+  "hq": "Pratapgarh",
+  "density": 854.0,
+  "lat": 25.89549,
+  "lon": 81.94783
+}, {
+  "district": "Raebareli",
+  "hq": "Raebareli",
+  "density": 739.0,
+  "lat": 26.22094,
+  "lon": 81.25566
+}, {
+  "district": "Rampur",
+  "hq": "Rampur",
+  "density": 987.0,
+  "lat": 28.7782,
+  "lon": 79.02565
+}, {
+  "district": "Saharanpur",
+  "hq": "Saharanpur",
+  "density": 939.0,
+  "lat": 29.9657,
+  "lon": 77.54605
+}, {
+  "district": "Sambhal",
+  "hq": "Sambhal",
+  "density": 890.0,
+  "lat": 28.58439,
+  "lon": 78.57182
+}, {
+  "district": "Sant Kabir Nagar",
+  "hq": "Khalilabad",
+  "density": 1014.0,
+  "lat": 26.77591,
+  "lon": 83.05821
+}, {
+  "district": "Shahjahanpur",
+  "hq": "Shahjahanpur",
+  "density": 673.0,
+  "lat": 27.85574,
+  "lon": 79.91806
+}, {
+  "district": "Shamli[17]",
+  "hq": "Shamli",
+  "density": 1200.0,
+  "lat": 29.44478,
+  "lon": 77.31708
+}, {
+  "district": "Shravasti",
+  "hq": "Shravasti",
+  "density": 572.0,
+  "lat": 27.50537,
+  "lon": 82.03455
+}, {
+  "district": "Siddharthnagar",
+  "hq": "Naugarh",
+  "density": 882.0,
+  "lat": 27.27487,
+  "lon": 83.08441
+}, {
+  "district": "Sitapur",
+  "hq": "Sitapur",
+  "density": 779.0,
+  "lat": 27.55902,
+  "lon": 80.69618
+}, {
+  "district": "Sonbhadra",
+  "hq": "Robertsganj",
+  "density": 274.0,
+  "lat": 24.68825,
+  "lon": 83.06501
+}, {
+  "district": "Sultanpur",
+  "hq": "Sultanpur",
+  "density": 855.0,
+  "lat": 26.25825,
+  "lon": 82.0681
+}, {
+  "district": "Unnao",
+  "hq": "Unnao",
+  "density": 682.0,
+  "lat": 26.54655,
+  "lon": 80.48611
+}, {
+  "district": "Varanasi",
+  "hq": "Varanasi",
+  "density": 2399.0,
+  "lat": 25.33289,
+  "lon": 82.99655
+}, {
+  "district": "Almora",
+  "hq": "Almora",
+  "density": 198.0,
+  "lat": 29.59931,
+  "lon": 79.65973
+}, {
+  "district": "Bageshwar",
+  "hq": "Bageshwar",
+  "density": 116.0,
+  "lat": 29.83573,
+  "lon": 79.77163
+}, {
+  "district": "Chamoli",
+  "hq": "Gopeshwar",
+  "density": 49.0,
+  "lat": 30.41133,
+  "lon": 79.31747
+}, {
+  "district": "Champawat",
+  "hq": "Champawat",
+  "density": 147.0,
+  "lat": 29.33588,
+  "lon": 80.09073
+}, {
+  "district": "Dehradun",
+  "hq": "Dehradun",
+  "density": 550.0,
+  "lat": 30.30952,
+  "lon": 78.04889
+}, {
+  "district": "Haridwar",
+  "hq": "Haridwar",
+  "density": 817.0,
+  "lat": 29.92201,
+  "lon": 78.12236
+}, {
+  "district": "Nainital",
+  "hq": "Nainital",
+  "density": 225.0,
+  "lat": 29.39286,
+  "lon": 79.45221
+}, {
+  "district": "Pauri Garhwal",
+  "hq": "Pauri",
+  "density": 129.0,
+  "lat": 30.1514,
+  "lon": 78.77381
+}, {
+  "district": "Pithoragarh",
+  "hq": "Pithoragarh",
+  "density": 69.0,
+  "lat": 29.58519,
+  "lon": 80.21629
+}, {
+  "district": "Rudraprayag",
+  "hq": "Rudraprayag",
+  "density": 119.0,
+  "lat": 30.28555,
+  "lon": 78.98145
+}, {
+  "district": "Tehri Garhwal",
+  "hq": "New Tehri",
+  "density": 169.0,
+  "lat": 30.37351,
+  "lon": 78.43182
+}, {
+  "district": "Udham Singh Nagar",
+  "hq": "Rudrapur",
+  "density": 648.0,
+  "lat": 28.97929,
+  "lon": 79.3999
+}, {
+  "district": "Uttarkashi",
+  "hq": "Uttarkashi",
+  "density": 41.0,
+  "lat": 30.73085,
+  "lon": 78.44378
+}, {
+  "district": "Alipurduar",
+  "hq": "Alipurduar",
+  "density": 400.0,
+  "lat": 26.51635,
+  "lon": 89.53305
+}, {
+  "district": "Bankura",
+  "hq": "Bankura",
+  "density": 523.0,
+  "lat": 23.23476,
+  "lon": 87.06715
+}, {
+  "district": "Paschim Bardhaman",
+  "hq": "Asansol",
+  "density": 1100.0,
+  "lat": 23.68432,
+  "lon": 86.97939
+}, {
+  "district": "Purba Bardhaman",
+  "hq": "Bardhaman",
+  "density": 890.0,
+  "lat": 23.2407,
+  "lon": 87.86736
+}, {
+  "district": "Birbhum",
+  "hq": "Suri",
+  "density": 771.0,
+  "lat": 23.90365,
+  "lon": 87.52778
+}, {
+  "district": "Cooch Behar",
+  "hq": "Cooch Behar",
+  "density": 833.0,
+  "lat": 26.31963,
+  "lon": 89.45455
+}, {
+  "district": "Dakshin Dinajpur",
+  "hq": "Balurghat",
+  "density": 753.0,
+  "lat": 25.23981,
+  "lon": 88.78377
+}, {
+  "district": "Darjeeling",
+  "hq": "Darjeeling",
+  "density": 585.0,
+  "lat": 27.03942,
+  "lon": 88.26387
+}, {
+  "district": "Hooghly",
+  "hq": "Chinsurah",
+  "density": 1753.0,
+  "lat": 22.90353,
+  "lon": 88.38261
+}, {
+  "district": "Howrah",
+  "hq": "Howrah",
+  "density": 3300.0,
+  "lat": 22.59632,
+  "lon": 88.25609
+}, {
+  "district": "Jalpaiguri",
+  "hq": "Jalpaiguri",
+  "density": 621.0,
+  "lat": 26.52418,
+  "lon": 88.71982
+}, {
+  "district": "Jhargram",
+  "hq": "Jhargram",
+  "density": 370.0,
+  "lat": 22.44972,
+  "lon": 86.99701
+}, {
+  "district": "Kalimpong",
+  "hq": "Kalimpong",
+  "density": 239.0,
+  "lat": 27.06701,
+  "lon": 88.47009
+}, {
+  "district": "Kolkata",
+  "hq": "Kolkata",
+  "density": 24252.0,
+  "lat": 22.57054,
+  "lon": 88.37124
+}, {
+  "district": "Maldah",
+  "hq": "English Bazar",
+  "density": 1071.0,
+  "lat": 25.01094,
+  "lon": 88.14054
+}, {
+  "district": "Murshidabad",
+  "hq": "Baharampur",
+  "density": 1334.0,
+  "lat": 24.10043,
+  "lon": 88.24071
+}, {
+  "district": "Nadia",
+  "hq": "Krishnanagar",
+  "density": 1316.0,
+  "lat": 23.38938,
+  "lon": 88.48619
+}, {
+  "district": "North 24 Parganas",
+  "hq": "Barasat",
+  "density": 2463.0,
+  "lat": 22.72118,
+  "lon": 88.48157
+}, {
+  "district": "Paschim Medinipur",
+  "hq": "Midnapore",
+  "density": 1076.0,
+  "lat": 22.422,
+  "lon": 87.32904
+}, {
+  "district": "Purba Medinipur",
+  "hq": "Tamluk",
+  "density": 923.0,
+  "lat": 22.29108,
+  "lon": 87.92325
+}, {
+  "district": "Purulia",
+  "hq": "Purulia",
+  "density": 468.0,
+  "lat": 23.33299,
+  "lon": 86.36696
+}, {
+  "district": "South 24 Parganas",
+  "hq": "Alipore",
+  "density": 819.0,
+  "lat": 22.52663,
+  "lon": 88.3351
+}, {
+  "district": "Uttar Dinajpur",
+  "hq": "Raiganj",
+  "density": 956.0,
+  "lat": 24.49115,
+  "lon": 89.50936
+}, {
+  "district": "Nicobar",
+  "hq": "Car Nicobar",
+  "density": 20.0,
+  "lat": 9.16826,
+  "lon": 92.81105
+}, {
+  "district": "North and Middle Andaman",
+  "hq": "Mayabunder",
+  "density": 28.0,
+  "lat": 12.91315,
+  "lon": 92.89914
+}, {
+  "district": "South Andaman",
+  "hq": "Port Blair",
+  "density": 89.0,
+  "lat": 11.6638,
+  "lon": 92.73499
+}, {
+  "district": "Chandigarh",
+  "hq": "Chandigarh",
+  "density": 9258.0,
+  "lat": 30.70341,
+  "lon": 76.78943
+}, {
+  "district": "Daman",
+  "hq": "Daman",
+  "density": 2651.0,
+  "lat": 20.43679,
+  "lon": 72.86478
+}, {
+  "district": "Diu",
+  "hq": "Diu",
+  "density": 2058.0,
+  "lat": 20.71553,
+  "lon": 70.94797
+}, {
+  "district": "Dadra and Nagar Haveli",
+  "hq": "Silvassa",
+  "density": 700.0,
+  "lat": 20.27293,
+  "lon": 73.00362
+}, {
+  "district": "Anantnag",
+  "hq": "Anantnag",
+  "density": 375.0,
+  "lat": 19.96263,
+  "lon": 73.14307
+}, {
+  "district": "Bandipora",
+  "hq": "Bandipore",
+  "density": 128.0,
+  "lat": 37.83981,
+  "lon": 15.13887
+}, {
+  "district": "Baramulla",
+  "hq": "Baramulla",
+  "density": 305.0,
+  "lat": 34.99981,
+  "lon": 32.4429
+}, {
+  "district": "Badgam",
+  "hq": "Badgam",
+  "density": 537.0,
+  "lat": 23.37427,
+  "lon": 85.99433
+}, {
+  "district": "Doda",
+  "hq": "Doda",
+  "density": 79.0,
+  "lat": 25.12607,
+  "lon": 87.52976
+}, {
+  "district": "Ganderbal",
+  "hq": "Ganderbal",
+  "density": 1151.0,
+  "lat": 21.732,
+  "lon": 84.22827
+}, {
+  "district": "Jammu",
+  "hq": "Jammu",
+  "density": 596.0,
+  "lat": 18.42439,
+  "lon": 84.0506
+}, {
+  "district": "Kathua",
+  "hq": "Kathua",
+  "density": 232.0,
+  "lat": 25.72605,
+  "lon": 87.53689
+}, {
+  "district": "Kishtwar",
+  "hq": "Kishtwar",
+  "density": 30.0,
+  "lat": 27.33586,
+  "lon": 79.09009
+}, {
+  "district": "Kulgam",
+  "hq": "Kulgam",
+  "density": 925.0,
+  "lat": 20.47034,
+  "lon": 73.10661
+}, {
+  "district": "Kupwara",
+  "hq": "Kupwara",
+  "density": 368.0,
+  "lat": 28.69551,
+  "lon": 78.79041
+}, {
+  "district": "Poonch",
+  "hq": "Poonch",
+  "density": 285.0,
+  "lat": 25.82913,
+  "lon": 79.04677
+}, {
+  "district": "Pulwama",
+  "hq": "Pulwama",
+  "density": 598.0,
+  "lat": 24.87172,
+  "lon": 78.56294
+}, {
+  "district": "Rajouri",
+  "hq": "Rajouri",
+  "density": 235.0,
+  "lat": 28.64563,
+  "lon": 77.12209
+}, {
+  "district": "Ramban",
+  "hq": "Ramban",
+  "density": 213.0,
+  "lat": 26.85616,
+  "lon": 85.43357
+}, {
+  "district": "Reasi",
+  "hq": "Reasi",
+  "density": 184.0,
+  "lat": 28.72557,
+  "lon": 74.95009
+}, {
+  "district": "Samba",
+  "hq": "Samba",
+  "density": 318.0,
+  "lat": -8.83111,
+  "lon": 13.22066
+}, {
+  "district": "Shopian",
+  "hq": "Shupiyan",
+  "density": 852.0,
+  "lat": 40.6869,
+  "lon": 48.2863
+}, {
+  "district": "Srinagar",
+  "hq": "Srinagar",
+  "density": 703.0,
+  "lat": 30.22226,
+  "lon": 78.77775
+}, {
+  "district": "Udhampur",
+  "hq": "Udhampur",
+  "density": 211.0,
+  "lat": 26.3019,
+  "lon": 87.00072
+}, {
+  "district": "Kargil",
+  "hq": "Kargil",
+  "density": 10.0,
+  "lat": 24.39809,
+  "lon": 81.78565
+}, {
+  "district": "Leh",
+  "hq": "Leh",
+  "density": 3.0,
+  "lat": 48.29034,
+  "lon": 20.98048
+}, {
+  "district": "Lakshadweep",
+  "hq": "Kavaratti",
+  "density": 2149.0,
+  "lat": 10.56554,
+  "lon": 72.63509
+}, {
+  "district": "Central Delhi",
+  "hq": "Daryaganj",
+  "density": 27730.0,
+  "lat": 28.64617,
+  "lon": 77.24364
+}, {
+  "district": "East Delhi",
+  "hq": "Preet Vihar",
+  "density": 27132.0,
+  "lat": 30.00321,
+  "lon": 75.3995
+}, {
+  "district": "New Delhi",
+  "hq": "Connaught Place",
+  "density": 4057.0,
+  "lat": 28.63394,
+  "lon": 77.21969
+}, {
+  "district": "North Delhi",
+  "hq": "Sadar Bazaar",
+  "density": 14557.0,
+  "lat": 27.88668,
+  "lon": 79.91507
+}, {
+  "district": "North East Delhi",
+  "hq": "Seelampur",
+  "density": 36155.0,
+  "lat": 28.66837,
+  "lon": 77.27219
+}, {
+  "district": "North West Delhi",
+  "hq": "Kanjhawala",
+  "density": 8254.0,
+  "lat": 28.73618,
+  "lon": 77.00322
+}, {
+  "district": "Shahdara",
+  "hq": "Shahdara",
+  "density": 0.0,
+  "lat": 31.62742,
+  "lon": 74.28614
+}, {
+  "district": "South Delhi",
+  "hq": "Saket",
+  "density": 11060.0,
+  "lat": 28.98656,
+  "lon": 77.73114
+}, {
+  "district": "South East Delhi",
+  "hq": "Defence Colony",
+  "density": 0.0,
+  "lat": 30.53001,
+  "lon": 75.8874
+}, {
+  "district": "South West Delhi",
+  "hq": "Vasant Vihar",
+  "density": 5446.0,
+  "lat": 30.3615,
+  "lon": 76.40112
+}, {
+  "district": "West Delhi",
+  "hq": "Rajouri Garden",
+  "density": 19563.0,
+  "lat": 28.64563,
+  "lon": 77.12209
+}, {
+  "district": "Karaikal",
+  "hq": "Karaikal",
+  "density": 1275.0,
+  "lat": 10.92549,
+  "lon": 79.83229
+}, {
+  "district": "Mah\u00c3\u00a9",
+  "hq": "Mah\u00c3\u00a9",
+  "density": 4646.0,
+  "lat": 25.23021,
+  "lon": 86.35139
+}, {
+  "district": "Pondicherry",
+  "hq": "Pondicherry",
+  "density": 3232.0,
+  "lat": 11.92993,
+  "lon": 79.8247
+}, {
+  "district": "Yanam",
+  "hq": "Yanam",
+  "density": 1854.0,
+  "lat": 16.73042,
+  "lon": 82.22375
+}]
