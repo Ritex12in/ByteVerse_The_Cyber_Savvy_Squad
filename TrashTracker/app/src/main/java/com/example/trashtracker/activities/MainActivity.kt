@@ -98,13 +98,17 @@ class MainActivity : AppCompatActivity() {
 
     private fun setProfilePic()
     {
-        val storageRef = Firebase.storage.reference
-        val pathReference = storageRef.child("profilephoto/profilepic1.png")
-        val ONE_MEGABYTE: Long = 1024 * 1024
-        pathReference.getBytes(ONE_MEGABYTE).addOnSuccessListener {byteArray->
-            val bmp = BitmapFactory.decodeByteArray(byteArray, 0, byteArray.size)
+        val mFireStore = FirebaseFirestore.getInstance()
+        mFireStore.collection(Constants.USERS).document(FireStoreClass().getCurrentUserId()).get().addOnSuccessListener { document->
+            val image = document.get("image").toString()
+            val storageRef = Firebase.storage.reference
+            val pathReference = storageRef.child(image)
+            val ONE_MEGABYTE: Long = 1024 * 1024
+            pathReference.getBytes(ONE_MEGABYTE).addOnSuccessListener {byteArray->
+                val bmp = BitmapFactory.decodeByteArray(byteArray, 0, byteArray.size)
 
-            binding?.mainProfilePic?.setImageBitmap(bmp)
+                binding?.mainProfilePic?.setImageBitmap(bmp)
+            }
         }
     }
 }
