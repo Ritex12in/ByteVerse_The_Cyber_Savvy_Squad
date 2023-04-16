@@ -65,9 +65,10 @@ h1{
     margin-bottom: 0;
 }
 .google{
-    margin-top: 20px;
+    margin-top: -167px;
+    margin-left: 34%;
     background:none;
-    width: 100%;
+    width: 33%;
     height: 10vh;
     display: flex;
     justify-content: center;
