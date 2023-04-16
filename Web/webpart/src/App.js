@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Loginform from './Component/Loginform.jsx'
 import Aboutus from './Component/Aboutus.jsx'
 import Contact from './Component/Contact_people.jsx'
+import Admin from './pages/Admin.jsx'
 
 function App() {
   console.log(process.env)
