@@ -3,6 +3,7 @@
     flex-direction:row;
     position: relative;
     justify-content: space-around;
+    background-color: #ECF2FF;
    }
    .left_div{
        background-color: aquamarine;
@@ -63,8 +64,39 @@
        margin-right: 20px;
       
    }
+
+  
+
+
+   
+       @media(max-width:1450px)
+       {
+        .places-container {
+          
+            top: 80px;
+            left:17%;
+            width:30%;
+            padding-top: 8px;
+        
+          }
+       }
+               
+   @media(max-width:1070px)
+   {
+    .places-container {
+      
+        top: 80px;
+       
+        width:200px;
+        padding-top: 8px;
+        margin-left:20px ;
+        padding: 20px 20px, 0,20px;
+    
+      }
+   }
    @media (max-width:990px)
-   {.Main{
+   {
+   .Main{
        height:163vh;
    }
        .upper{
@@ -90,89 +122,69 @@
       
           
        }
-       @media(max-width:1450px)
-       {
-        .places-container {
-          
-            top: 80px;
-            left:17%;
-            width:30%;
-            padding-top: 8px;
-        
-          }
-       }
-       
-   @media(max-width:1070px)
+    }
+
+       @media (max-width:830px)
    {
-    .places-container {
-      
-        top: 80px;
+       .Main{
+           flex:none;
+           display: inline-block;
+           height:236vh;
+       }
+       .left_div{
+          
+           height:80vh;
+           width: 95vw;
+           margin-right: 50px;
+          
+       }
+       .upper{
+          
+           height:50vh;
+           width:95vw; 
+           margin-left: 10px;
+           margin-right: 20px;
+          margin-top:10px;
+       }
+       .Lower{
+           position:absolute;
+           top:130vh;
+           height:100vh;
+           width:95vw;   
+           flex:none;
+          display: inline-block;
+         margin-right: 20px;
+         margin-left:20px;
+         margin-top: 20px;
+          
+       }
+       .Left_Lower_half{
        
-        width:40%;
-        padding-top: 8px;
-        margin-left:20px ;
-        padding: 20px 20px, 0,20px;
+           height:50vh;
+           width:100%;   
+        margin-bottom: 20px;
+
+       }
+       .Right_Lower_half{
+       
+           height:50vh;
+           width:100%;       
+       }
+       .places-container {
+      
+        width:200px;
+        padding-top: 10px;
+        margin-left:5px;
+      
     
       }
-   }
-       @media (max-width:830px)
-       {
-           .Main{
-               flex:none;
-               display: inline-block;
-               height:236vh;
-           }
-           .left_div{
-              
-               height:80vh;
-               width: 95vw;
-               margin-right: 20px;
-              
-           }
-           .upper{
-              
-               height:50vh;
-               width:95vw; 
-               margin-left: 10px;
-               margin-right: 20px;
-              margin-top:10px;
-           }
-           .Lower{
-               position:absolute;
-               top:130vh;
-               height:100vh;
-               width:95vw;   
-               flex:none;
-              display: inline-block;
-             margin-right: 20px;
-             margin-left:20px;
-             margin-top: 20px;
-              
-           }
-           .Left_Lower_half{
-           
-               height:50vh;
-               width:100%;   
-            margin-bottom: 20px;
-   
-           }
-           .Right_Lower_half{
-           
-               height:50vh;
-               width:100%;       
-           }
 
-       }
-      
-       
-        .places-container {
-        margin-left: 20px;
-            width:40%;
-           
-        
-          }
 
    }
-
-
-  
+   @media (max-width:544px)
+   { .places-container{
+    width: 200px;
+    margin-left: 30px;
+   }
+   }
+ 

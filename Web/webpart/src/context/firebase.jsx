@@ -1,43 +1,43 @@
 import {initializeApp} from 'firebase/app'
 import React,{useContext,createContext, useState, useEffect} from 'react'
-import {getAuth,signInWithEmailAndPassword,GoogleAuthProvider,signInWithPopup,onAuthStateChanged,signOut} from "firebase/auth"
+import {getAuth,signInWithEmailAndPassword,onAuthStateChanged,signOut} from "firebase/auth"
 import {getFirestore} from "firebase/firestore"
 
-const firebasecontext= createContext(null);
+const firebasecontext = createContext(null);
 const firebaseConfig = {
-    apiKey: "AIzaSyD_gM1K3bSabC7XDzuCg8hBGss4-GGok54",//process.env.REACT_APP_firebaseConfig,
-    authDomain: "trash-tracker-15722.firebaseapp.com",
-    projectId: "trash-tracker-15722",
-    storageBucket: "trash-tracker-15722.appspot.com",
-    messagingSenderId: "949815088847",
-    appId: "1:949815088847:web:a49227c577f9b40576c9ba"
+    apiKey: "AIzaSyAWgCLVfRywJkGVQxQyCfFkBByNX-AX5O4",
+    authDomain: "garbagelocator-41283.firebaseapp.com",
+    projectId: "garbagelocator-41283",
+    storageBucket: "garbagelocator-41283.appspot.com",
+    messagingSenderId: "192958369223",
+    appId: "1:192958369223:web:b735d9ed3c228297f29de2",
+    measurementId: "G-6Q9L2QX2H8"
+  
+
   };
   export const useFirebase =() => useContext(firebasecontext);
 
-  export const FirebaseProvider = (props) => {
+export const FirebaseProvider = (props) => {
     const firebaseapp = initializeApp(firebaseConfig);
     const firebaseauth = getAuth(firebaseapp);
-    const googleProvider = new GoogleAuthProvider();
     const firebasestore = getFirestore(firebaseapp);
 
-    const [user,setUser] = useState(null);
+    const [user, setUser] = useState(null);
     useEffect(() => {
-        onAuthStateChanged(firebaseauth,user => {
-            if(user) setUser(user);
+        onAuthStateChanged(firebaseauth, user => {
+            if (user) setUser(user);
             else setUser(null);
         })
-    },[firebaseauth]);
+    }, [firebaseauth])
 
     const signin =(email,password) =>
     signInWithEmailAndPassword(firebaseauth,email,password);
     
-    const signinWithGoogle = () =>
-    signInWithPopup(firebaseauth,googleProvider);
-
     const isLoggedin = user?true:false;
+    const uid =isLoggedin&&user.uid;
     const Logout = () => {signOut(firebaseauth)};
 
-    return <firebasecontext.Provider value={{firebaseapp,signin,signinWithGoogle,isLoggedin,Logout,firebasestore}}>
+    return <firebasecontext.Provider value={{uid,firebaseapp,signin,isLoggedin,Logout,firebasestore}}>
         {props.children}
     </firebasecontext.Provider>
-  };
+};
