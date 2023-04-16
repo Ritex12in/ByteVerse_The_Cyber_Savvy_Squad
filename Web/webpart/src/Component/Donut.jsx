@@ -30,8 +30,8 @@ function Donut() {
         < div >
             <Chart
                 type="donut"
-                width={400}
-                height={450}
+                width='140%'
+                height='auto'
                 series={WasteType}
 
                 options={{
