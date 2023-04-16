@@ -5,6 +5,7 @@ import Header from './Component/Header.jsx'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Loginform from './Component/Loginform.jsx'
 import Aboutus from './Component/Aboutus.jsx'
+import Admin from './pages/Admin.jsx'
 function App() {
   console.log(process.env)
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path='/' element={<Mainpage />} />
           <Route path='/login' element={<Loginform />} />
           <Route path='/About' element={<Aboutus />} />
+          <Route path='/admin' element={<Admin/>}/>
         </Routes>
 
       </BrowserRouter>
