@@ -6,7 +6,7 @@ function Contact() {
     <div className="main1">
       <h1>Contact Us</h1>
 
-      <form>
+      <form className='gh'>
         <div className='input1'>
           <label className='label_text'>Name</label>
           <input type="text" required placeholder="Abc" />

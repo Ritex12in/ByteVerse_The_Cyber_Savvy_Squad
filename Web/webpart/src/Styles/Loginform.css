@@ -4,21 +4,22 @@ form{
      background-color: #bfd6f6;
      /* background-image: url('water-g969f380e9_1920.jpg'); */
     height:100vh;
+    width: 100vw;
     display:flex;
-    background-size: cover;
+   
     justify-content:center;
     align-items: center;
-    flex-direction: column;
+    /* flex-direction: column; */
     box-sizing: border-box;
     color: white;
      
 }
 .form{
-    height:90vh;
-    width:90vh;
+    height:70vh;
+    width:70vh;
     background: #64a1f4;
     display:flex;
-    /* justify-content:center; */
+    justify-content:center;
     flex-direction: column;
     align-items: center;
     border-radius: 20px;

@@ -26,7 +26,7 @@ function Bar() {
 
                         type="bar"
                         width="100%"
-                        height="340"
+                        height="225"
                         series={series}
                         options={options}
                     />

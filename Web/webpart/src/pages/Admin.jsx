@@ -3,6 +3,7 @@ import LocationforAdmin from "./getLocation";
 import { useFirebase } from "../context/firebase";
 import {collection,addDoc} from "firebase/firestore"
 
+
 const Admin= () => {
     const firebase = useFirebase();
     const [latitude,setLatitude]=useState("");
@@ -18,10 +19,10 @@ const Admin= () => {
         <>
         <LocationforAdmin/>
         <div>
-            
+
         </div>
         <h1>Enter the coordinates for dustbin to be placed</h1>
-        <form onSubmit={Handlesubmit}>
+        <form onSubmit={Handlesubmit} className="adm">
             <label  htmlFor="name">Latitude:</label>
             <input  name="latitude"
             onChange={e=>setLatitude(e.target.value)}
@@ -30,6 +31,7 @@ const Admin= () => {
             <input  name="longitude" 
              onChange={e=>setLongitude(e.target.value)}
              value={longitude} placeholder="Enter Long"/>
+             
             <button type="submit">submit</button>
         </form>
         </>

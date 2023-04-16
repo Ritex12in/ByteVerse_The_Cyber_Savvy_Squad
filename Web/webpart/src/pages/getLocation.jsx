@@ -1,4 +1,4 @@
-import  React,{useState, useCallback} from 'react';
+import  React,{useState} from 'react';
 import Paper from '@mui/material/Paper';
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
@@ -30,8 +30,9 @@ export default function LocationforAdmin() {
   const getUsers = async () => {
     const data = await getDocs(CollectionRef);
     setRows(data.docs.map((doc) => ({ ...doc.data(), id: doc.id  })));
+    
   };
-useCallback(() => {
+useState(() => {
     getUsers();
   },[getUsers]);
   

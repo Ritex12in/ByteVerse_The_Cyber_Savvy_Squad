@@ -12,10 +12,12 @@
    
 
 }
-form{
+.gh{
     height:50vh;
     width:50vw;
     background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
     border-radius: 40px;
 }
 .input1{
