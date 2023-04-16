@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.trashtracker'
+    namespace 'com.example.trashtrackerDemo'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.trashtracker"
+        applicationId "com.example.trashtrackerDemo"
         minSdk 24
         targetSdk 33
         versionCode 1
