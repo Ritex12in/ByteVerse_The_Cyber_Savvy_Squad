@@ -1,8 +1,22 @@
 import React, { Component } from 'react'
 import '../Styles/Header.css'
 import {Link} from 'react-router-dom'
-import {FcMenu} from 'react-icons/fc'
- class Header extends Component {
+//import {FcMenu} from 'react-icons/fc'
+import { useFirebase } from '../context/firebase'
+
+const CustomHook = () => {
+  const firebase = useFirebase();
+  return(
+    <div className="right">
+    {firebase.isLoggedin ? (
+            <Link className="mylink login"  style={{textDecoration: 'none'}} to='/login' onClick={firebase.Logout}>LOGOUT</Link>
+        ):(
+            <Link className="mylink login"  style={{textDecoration: 'none'}} to='/login'>LOGIN</Link>
+        )}
+    </div>
+  )
+}
+class Header extends Component {
   constructor(props) {
     super(props)
   
@@ -52,9 +66,7 @@ import {FcMenu} from 'react-icons/fc'
             <Link className="mylink" style={{textDecoration: 'none'}} to="/faq">FAQ</Link>
         </div>
         </div>
-        <div className="right">
-           <Link className="mylink login"  style={{textDecoration: 'none'}} to='/login'>LOGIN</Link>
-        </div>
+          <CustomHook/>
        </div>
      
         </nav>

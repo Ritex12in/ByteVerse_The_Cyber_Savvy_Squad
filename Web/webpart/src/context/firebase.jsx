@@ -4,7 +4,7 @@ import {getAuth,signInWithEmailAndPassword,GoogleAuthProvider,signInWithPopup,on
 
 const firebasecontext= createContext(null);
 const firebaseConfig = {
-    apiKey: process.env.REACT_APP_firebaseConfig,
+    apiKey: "AIzaSyD_gM1K3bSabC7XDzuCg8hBGss4-GGok54",//process.env.REACT_APP_firebaseConfig,
     authDomain: "trash-tracker-15722.firebaseapp.com",
     projectId: "trash-tracker-15722",
     storageBucket: "trash-tracker-15722.appspot.com",
@@ -24,7 +24,7 @@ const firebaseConfig = {
             if(user) setUser(user);
             else setUser(null);
         })
-    })
+    },[firebaseauth]);
 
     const signin =(email,password) =>
     signInWithEmailAndPassword(firebaseauth,email,password);
