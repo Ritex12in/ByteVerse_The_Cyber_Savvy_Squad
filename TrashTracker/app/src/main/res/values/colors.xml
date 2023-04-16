@@ -13,4 +13,6 @@
     <color name="blue_3">#64A1F4</color>
     <color name="blue_4">#4A91F2</color>
     <color name="blue_5">#3B7DD8</color>
+    <color name="card_graph_bg_color">#4A91F2</color>
+    <color name="graph_heading_color">#FFFFFF</color>
 </resources>

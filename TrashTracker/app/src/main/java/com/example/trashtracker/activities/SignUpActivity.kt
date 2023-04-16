@@ -52,7 +52,7 @@ class SignUpActivity : BaseActivity() {
                     if (task.isSuccessful)
                     {
                         val rndInt = (1..12).random()
-                        val image = "profilephoto/profilepic$rndInt"
+                        val image = "profilephoto/profilepic${rndInt}.png"
                         val firebaseUser: FirebaseUser? = task.result.user
                         val userInfo = User(firebaseUser?.uid,name,firebaseUser?.email,image)
                         FireStoreClass().registerUser(userInfo)
