@@ -1,6 +1,7 @@
 import {initializeApp} from 'firebase/app'
 import React,{useContext,createContext, useState, useEffect} from 'react'
 import {getAuth,signInWithEmailAndPassword,GoogleAuthProvider,signInWithPopup,onAuthStateChanged,signOut} from "firebase/auth"
+import {getFirestore} from "firebase/firestore"
 
 const firebasecontext= createContext(null);
 const firebaseConfig = {
@@ -17,6 +18,7 @@ const firebaseConfig = {
     const firebaseapp = initializeApp(firebaseConfig);
     const firebaseauth = getAuth(firebaseapp);
     const googleProvider = new GoogleAuthProvider();
+    const firebasestore = getFirestore(firebaseapp);
 
     const [user,setUser] = useState(null);
     useEffect(() => {
@@ -35,7 +37,7 @@ const firebaseConfig = {
     const isLoggedin = user?true:false;
     const Logout = () => {signOut(firebaseauth)};
 
-    return <firebasecontext.Provider value={{firebaseapp,signin,signinWithGoogle,isLoggedin,Logout}}>
+    return <firebasecontext.Provider value={{firebaseapp,signin,signinWithGoogle,isLoggedin,Logout,firebasestore}}>
         {props.children}
     </firebasecontext.Provider>
   };

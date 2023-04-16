@@ -19,10 +19,10 @@ const Loginform = () => {
   const [password, setPassword] = useState("");
 
   const HandleSubmit = async (event) => {
-    alert(`your email is ${email} and passord is ${password}`)
-    event.prevent.default()
-    const detail = await this.firebase.signin(this.state.email, this.state.password);
+    event.preventDefault()
+    const detail = await firebase.signin(email,password);
     console.log("success", detail);
+    alert(`your email is ${email} and passord is ${password}`)
   }
   return (
     <>
