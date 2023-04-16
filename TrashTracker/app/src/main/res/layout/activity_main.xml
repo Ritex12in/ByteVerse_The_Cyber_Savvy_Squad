@@ -117,6 +117,7 @@
                                     android:textColor="@color/graph_heading_color"
                                     />
                                 <TextView
+                                    android:id="@+id/tvWeekContribtion"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="44"

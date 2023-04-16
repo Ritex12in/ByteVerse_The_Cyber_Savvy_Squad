@@ -79,16 +79,25 @@ class MainActivity : AppCompatActivity() {
         val yearDates = listOf("2023-04-12", "2024-04-13", "2025-04-14", "2026-04-15",
             "2027-04-16", "2028-04-17", "2029-04-18")
 
-        val allAmounts = listOf(44.0, 33.0, 22.0, 200.0, 23.0, 75.0, 45.0)
-        SetGraph.renderData(WeeksXAxisValueFormatter(dates),volumeReportChart, allAmounts,8,"Week",true,"#FF0000")
-        SetGraph.renderData(MonthsXAxisValueFormatter(monthDates),volumeReportChart2, allAmounts,8,"Month",false,"#00FF00")
-        SetGraph.renderData(YearsXAxisValueFormatter(yearDates),volumeReportChart3, allAmounts,8,"Year",false,"#0000FF")
-        SetGraph.renderData(WeeksXAxisValueFormatter(dates),volumeReportChart4, allAmounts,8,"Week",true,"#000000")
-        SetGraph.renderData(MonthsXAxisValueFormatter(monthDates),volumeReportChart5, allAmounts,8,"Month",false,"#80FF01")
-        SetGraph.renderData(YearsXAxisValueFormatter(yearDates),volumeReportChart6, allAmounts,8,"Year",false,"#0500FF")
-        SetGraph.renderData(WeeksXAxisValueFormatter(dates),volumeReportChart7, allAmounts,8,"Week",true,"#FF0A00")
-        SetGraph.renderData(MonthsXAxisValueFormatter(monthDates),volumeReportChart8, allAmounts,8,"Month",false,"#D0FF90")
-        SetGraph.renderData(YearsXAxisValueFormatter(yearDates),volumeReportChart9, allAmounts,8,"Year",false,"#E060FF")
+        val allAmountsWeek1 = listOf(44.0, 33.0, 22.0, 200.0, 23.0, 75.0, 45.0)
+        val allAmountsWeek2 = listOf(144.0, 133.0, 122.0, 200.0, 123.0, 175.0, 145.0)
+        val allAmountsWeek3 = listOf(1441.0, 1331.01, 1221.0, 200.0, 123.0, 175.0, 145.0)
+        val allAmountsMonth1 = listOf(1441.0, 1931.01, 1221.0, 208.0, 123.0, 475.0, 145.0)
+        val allAmountsMonth2 = listOf(1441.0, 18131.01, 1221.0, 2018.0, 1213.0, 1475.0, 1145.0)
+        val allAmountsMonth3 = listOf(14341.0, 181331.01, 1221.0, 2018.0, 12133.0, 14375.0, 1145.0)
+        val allAmountsYear1 = listOf(13141.0, 18131.01, 12213.0, 20148.0, 121343.0, 1435.0, 1145.0)
+        val allAmountsYear2 = listOf(13141.0, 18131.01, 132213.0, 20148.0, 1231343.0, 14305.0, 11345.0)
+        val allAmountsYear3 = listOf(13141.0, 18131.01, 132213.0, 20148.0, 1231343.0, 145305.0, 113545.0)
+
+        SetGraph.renderData(WeeksXAxisValueFormatter(dates),volumeReportChart, allAmountsWeek1,8,"Week",true,"#FF0000")
+        SetGraph.renderData(MonthsXAxisValueFormatter(monthDates),volumeReportChart2, allAmountsMonth1,8,"Month",false,"#00FF00")
+        SetGraph.renderData(YearsXAxisValueFormatter(yearDates),volumeReportChart3, allAmountsYear1,8,"Year",false,"#0000FF")
+        SetGraph.renderData(WeeksXAxisValueFormatter(dates),volumeReportChart4, allAmountsWeek2,8,"Week",true,"#000000")
+        SetGraph.renderData(MonthsXAxisValueFormatter(monthDates),volumeReportChart5, allAmountsMonth2,8,"Month",false,"#80FF01")
+        SetGraph.renderData(YearsXAxisValueFormatter(yearDates),volumeReportChart6, allAmountsYear2,8,"Year",false,"#0500FF")
+        SetGraph.renderData(WeeksXAxisValueFormatter(dates),volumeReportChart7, allAmountsWeek3,8,"Week",true,"#FF0A00")
+        SetGraph.renderData(MonthsXAxisValueFormatter(monthDates),volumeReportChart8, allAmountsMonth3,8,"Month",false,"#D0FF90")
+        SetGraph.renderData(YearsXAxisValueFormatter(yearDates),volumeReportChart9, allAmountsYear3,8,"Year",false,"#E060FF")
     }
 
     private fun setName()
@@ -99,6 +108,7 @@ class MainActivity : AppCompatActivity() {
             if (user != null) {
                 binding?.tvMainName?.text = user.name
                 binding?.tvMainContribution?.text = "Total Contributions: ${user.contribution}"
+                binding?.tvWeekContribtion?.text = user.contribution.toString()
             }
         }
     }

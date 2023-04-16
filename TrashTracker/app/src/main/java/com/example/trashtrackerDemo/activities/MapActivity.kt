@@ -7,15 +7,18 @@ import android.view.Window
 import android.view.WindowManager
 import androidx.annotation.RawRes
 import com.example.trashtrackerDemo.R
+import com.example.trashtrackerDemo.contants.DustbinPosition
+import com.example.trashtrackerDemo.contants.OfficePosition
 import com.example.trashtrackerDemo.databinding.ActivityMapBinding
+import com.example.trashtrackerDemo.utils.DustbinsCollection
 import com.example.trashtrackerDemo.utils.GetLocation
+import com.example.trashtrackerDemo.utils.OfficeCollection
 import com.google.android.gms.common.api.Status
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
-import com.google.android.gms.maps.model.LatLng
-import com.google.android.gms.maps.model.TileOverlayOptions
+import com.google.android.gms.maps.model.*
 import com.google.android.libraries.places.api.Places
 import com.google.android.libraries.places.api.model.Place
 import com.google.android.libraries.places.widget.AutocompleteSupportFragment
@@ -92,6 +95,68 @@ class MapActivity : BaseActivity(), OnMapReadyCallback {
         val currentLat = intent.getDoubleExtra("latitude",0.0)
         val currentLong = intent.getDoubleExtra("longitude",0.0)
         zoomOnMap(LatLng(currentLat,currentLong))
+
+
+        val dustbins:ArrayList<DustbinPosition> = DustbinsCollection.getDustbinsList()
+        val removeDustbin = ArrayList<Marker?>()
+        var isDustbinMarked = true
+        binding?.LocateDustbin?.setOnClickListener {
+            if (isDustbinMarked)
+            {
+                removeDustbin.clear()
+                for (i in dustbins)
+                {
+                    val location = LatLng(i.latitude,i.longitude)
+                    val temp= mGoogleMap?.addMarker(
+                        MarkerOptions()
+                        .position(location)
+                        .title("Dustbin")
+                        .icon(BitmapDescriptorFactory.fromResource(R.drawable.dustbin_24dp))
+                    )
+                    removeDustbin.add(temp)
+                }
+                isDustbinMarked = false
+            }
+            else
+            {
+                for (i in removeDustbin)
+                {
+                    i?.remove()
+                }
+                isDustbinMarked = true
+            }
+        }
+
+        //Office Location
+        val office:ArrayList<OfficePosition> = OfficeCollection.getOfficeList()
+        val removeOffice = ArrayList<Marker?>()
+        var isOfficeMarked = true
+        binding?.LocateMunicipality?.setOnClickListener {
+            if (isOfficeMarked)
+            {
+                removeOffice.clear()
+                for (i in office)
+                {
+                    val location = LatLng(i.latitude,i.longitude)
+                    val temp= mGoogleMap?.addMarker(
+                        MarkerOptions()
+                        .position(location)
+                        .title("Municipality Office")
+                        .icon(BitmapDescriptorFactory.fromResource(R.drawable.office_24dp))
+                    )
+                    removeOffice.add(temp)
+                }
+                isOfficeMarked = false
+            }
+            else
+            {
+                for (i in removeOffice)
+                {
+                    i?.remove()
+                }
+                isOfficeMarked = true
+            }
+        }
     }
 
     private fun zoomOnMap(mLatLng:LatLng)
