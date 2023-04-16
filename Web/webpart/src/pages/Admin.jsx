@@ -17,6 +17,10 @@ const Admin= () => {
     return(
         <>
         <LocationforAdmin/>
+        <div>
+            
+        </div>
+        <h1>Enter the coordinates for dustbin to be placed</h1>
         <form onSubmit={Handlesubmit}>
             <label  htmlFor="name">Latitude:</label>
             <input  name="latitude"

@@ -2,15 +2,16 @@ import React from "react";
 import Chart from "react-apexcharts";
 import { getDoc, doc } from 'firebase/firestore'
 import { useEffect } from "react";
-import firebasestore from "../db";
+import { useFirebase } from "../context/firebase";
 
 function Donut() {
+    const firebase= useFirebase();
     const WasteType = [];
 
 
     useEffect(() => {
         try {
-            const docRef = doc(firebasestore, 'Constants', "WasteTypeData")
+            const docRef = doc(firebase.firebasestore, 'Constants', "WasteTypeData")
             const snap = getDoc(docRef);
             snap.then(doc => {
                 if (doc && doc.exists) {
