@@ -30,7 +30,7 @@ function Donut() {
         < div >
             <Chart
                 type="donut"
-                width='100%'
+                width='140%'
                 height='auto'
                 series={WasteType}
 

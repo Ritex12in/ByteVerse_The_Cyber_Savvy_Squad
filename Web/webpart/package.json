@@ -19,7 +19,7 @@
     "react-icons": "^4.8.0",
     "react-router-dom": "^6.10.0",
     "react-scripts": "5.0.1",
-    "sweetalert2": "^11.7.3",
+    "sass": "^1.62.0",
     "use-places-autocomplete": "^4.0.0",
     "web-vitals": "^2.1.4"
   },

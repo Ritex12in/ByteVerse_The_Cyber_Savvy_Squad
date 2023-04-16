@@ -1,0 +1,38 @@
+.contact_people{
+    width:100vw;
+    height:100vh;
+    background-color: rgb(202, 240, 240);
+}
+.main1{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+form{
+    height:50vh;
+    width:50vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 40px;
+}
+.input1{
+    padding:10px;
+    display: flex;
+    flex-direction: row;
+
+}
+.label_text{
+    font-size: 1.2rem;
+    margin: 10px;
+}
+.button_submit{
+   height: 50px;
+   width:100px;
+   margin-top: 10px;
+   border-radius: 10px;
+   
+    
+}
