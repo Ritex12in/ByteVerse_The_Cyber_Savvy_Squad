@@ -19,23 +19,24 @@ const GetMap = () => {
 const Gmap = () => {
     let coords = { lat: 25.6208, lng: 85.1720 };
     const [selected, setSelected] = useState(null);
-    const firebase= useFirebase();
+    const firebase = useFirebase();
     const HeatmapDataArray = [];
-    useEffect(()=> {
-       const  collectionRef= getDocs(collection(firebase.firebasestore,"Garbage"))
-       collectionRef.then(
-        querySnapshot => {
-        querySnapshot.forEach((doc) => {
-            const data =doc.data();
-            const lat =data.latitude;
-            const lng =data.longitude;
-            const weight = data.amount;
-            const location = new window.google.maps.LatLng(lat,lng);
-            HeatmapDataArray.push({location,weight});
-        })})
-    },[HeatmapDataArray,firebase.firebasestore]);
-    if(selected !=null)
-      coords = selected;
+    useEffect(() => {
+        const collectionRef = getDocs(collection(firebase.firebasestore, "Garbage"))
+        collectionRef.then(
+            querySnapshot => {
+                querySnapshot.forEach((doc) => {
+                    const data = doc.data();
+                    const lat = data.latitude;
+                    const lng = data.longitude;
+                    const weight = data.amount;
+                    const location = new window.google.maps.LatLng(lat, lng);
+                    HeatmapDataArray.push({ location, weight });
+                })
+            })
+    }, [HeatmapDataArray, firebase.firebasestore]);
+    if (selected != null)
+        coords = selected;
     return (
         <>
             <GoogleMap
@@ -57,7 +58,7 @@ const PlaceAutoComplete = ({ setSelected }) => {
         setValue(address, false);
         clearSuggestions();
         const results = await getGeocode({ address });
-        const{ lat,lng} = getLatLng(results[0]);
+        const { lat, lng } = getLatLng(results[0]);
         console.log(results);
         setSelected({ lat, lng });
     }

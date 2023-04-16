@@ -5,7 +5,7 @@ import { useEffect } from "react";
 import { useFirebase } from "../context/firebase";
 
 function Donut() {
-    const firebase= useFirebase();
+    const firebase = useFirebase();
     const WasteType = [];
 
 
@@ -30,8 +30,8 @@ function Donut() {
         < div >
             <Chart
                 type="donut"
-                width={400}
-                height={450}
+                width='100%'
+                height='auto'
                 series={WasteType}
 
                 options={{
