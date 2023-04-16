@@ -3,7 +3,7 @@
     padding:0;
 }
 .About_page{
-    height:130vh;
+  height:130vh;
     width:100vw;
 background-color: rgb(255, 255, 255);
 }
@@ -16,7 +16,7 @@ h1{
     height:50vh;
     width:45vw;
 }
-.wriiten_About_us section{
+.wriiten_About_us {
     text-align: center;
     margin-left: 20px;
     margin-top: 20px;
@@ -42,6 +42,7 @@ img{
     margin-top: 20px;
     flex-wrap: wrap;
 }
+
 .Memeber{
     height:70vh;
     width:100vw;
@@ -52,8 +53,8 @@ img{
     width:100%;
    display: flex;
    justify-content: center;
-   font-size: 3rem;
-   font-weight:900 ;
+   font-size: 1.8rem;
+   font-weight:400 ;
 }
 .Member_details{
     height:65vh;
@@ -61,4 +62,91 @@ img{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+  
 }
+@media(max-width:1180px)
+
+{.About_page{
+    height:190vh;
+
+  }
+
+    .About_us_section{
+   flex-direction: column-reverse;
+   justify-content: center;
+}
+.wriiten_About_us{
+  display: inline-block;
+  width:98%;
+  margin: 10px;
+  height: 30vh;
+
+}
+section{
+    font-size: 20px;
+}
+.Group_image{
+    height:50vh;
+    width:100%;
+   
+}
+.Member_details{
+  
+    display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+.dummy_about{
+    font-size: 20px;
+}
+
+
+}
+@media(max-width:600px)
+{
+    .About_page{
+        height:140vh;
+     
+      }
+    .wriiten_About_us{
+        height:60vh;
+       
+    }
+    .dummy_about{
+        margin-top: 10px;
+        font-size: 1.5rem;
+        height:100%;
+
+    }
+}
+@media(max-width:460px)
+{
+    .About_page{
+        height:210vh;
+          width:100vw;
+     
+      }
+      .About_us_section{
+        height:130vh;
+    }
+
+    .wriiten_About_us{
+        height: auto;
+        
+    }
+    .dummy_about{
+    
+        height:100%;
+        font-size: 1.2rem;
+
+    }
+    .Memeber{
+        margin-top: 10px;
+    }
+    .Member{
+        
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+}
+

@@ -29,7 +29,7 @@ const Loginform = () => {
       <form onSubmit={HandleSubmit}>
         <div className="form">
           <h1 >LOGIN </h1>
-          <h3>Hey {email}</h3>
+         
           <div className="form-input">
             <div className="form-label">
               <label htmlfor="name">Username: </label></div>
@@ -50,11 +50,7 @@ const Loginform = () => {
           </div>
            </div>
           </form>
-          <div className="google">
-            <button className="Login_with" onClick={firebase.signinWithGoogle}>
-              LOGIN WITH <img className="google_icon" src="icons8-google-48.png" />
-            </button>
-          </div>
+    
     </>
   )
 
