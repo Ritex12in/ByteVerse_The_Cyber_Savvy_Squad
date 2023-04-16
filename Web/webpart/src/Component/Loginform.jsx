@@ -22,13 +22,13 @@ const Loginform = () => {
     event.preventDefault()
     const detail = await firebase.signin(email,password);
     console.log("success", detail);
-    alert(`your email is ${email} and passord is ${password}`)
+    alert(`your email is ${email} and passord is ${password}`);
   }
   return (
     <>
       <form onSubmit={HandleSubmit}>
         <div className="form">
-          <h1 >LOGIN </h1>
+          <h1>LOGIN </h1>
          
           <div className="form-input">
             <div className="form-label">
@@ -43,7 +43,7 @@ const Loginform = () => {
             <FcLock />
             <input type="password" minLength="4" maxlenght="10" id="password" name="password" onChange={e => setPassword(e.target.value)} value={password} required />
           </div>
-          <button type="submit" className="button">Login</button>
+          <button type="submit" className="button"><b>Login</b></button>
           <div class="forget-link">
             <a href="#">forget password</a>
 

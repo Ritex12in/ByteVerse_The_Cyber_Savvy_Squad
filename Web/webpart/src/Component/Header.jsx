@@ -9,9 +9,9 @@ const CustomHook = () => {
   return(
     <div className="right">
     {firebase.isLoggedin ? (
-            <Link className="mylink login"  style={{textDecoration: 'none'}} to='/login' onClick={firebase.Logout}>LOGOUT</Link>
+            <Link className="mylink login"  style={{textDecoration: 'none'}} to='/login' onClick={firebase.Logout}><b>LOGOUT</b></Link>
         ):(
-            <Link className="mylink login"  style={{textDecoration: 'none'}} to='/login'>LOGIN</Link>
+            <Link className="mylink login"  style={{textDecoration: 'none'}} to='/login'><b>LOGIN</b></Link>
         )}
     </div>
   )
@@ -53,17 +53,17 @@ class Header extends Component {
         <div className="Links" id="small_links">
        <div className='left'>
         <div className='home'>
-          <Link className="mylink" style={{textDecoration: 'none'}} to="/">Home</Link>
+          <Link className="mylink" style={{textDecoration: 'none'}} to="/"><b>HOME</b></Link>
         </div>
         <div className='About'>
-            <Link className="mylink" style={{textDecoration: 'none'}} to="/About" >ABOUT</Link>
+            <Link className="mylink" style={{textDecoration: 'none'}} to="/About" ><b>ABOUT</b></Link>
         </div>
         
         <div className="contact">
-          <Link className="mylink" style={{textDecoration: 'none'}} to="/contact">CONTACT</Link>
+          <Link className="mylink" style={{textDecoration: 'none'}} to="/contact"><b>CONTACT</b></Link>
         </div>
         <div className="faq">
-            <Link className="mylink" style={{textDecoration: 'none'}} to="/faq">FAQ</Link>
+            <Link className="mylink" style={{textDecoration: 'none'}} to="/faq"><b>FAQ</b></Link>
         </div>
         </div>
           <CustomHook/>
