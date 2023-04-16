@@ -1,6 +1,5 @@
 package com.example.trashtracker.firebase
 
-import android.util.Log
 import android.widget.Toast
 import com.example.trashtracker.activities.AddGarbageActivity
 import com.example.trashtracker.contants.Constants
@@ -12,7 +11,6 @@ import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.SetOptions
 import java.text.SimpleDateFormat
 import java.util.*
-import kotlin.collections.HashMap
 
 class FireStoreClass {
 
@@ -49,6 +47,8 @@ class FireStoreClass {
             .addOnCompleteListener{task->
                 if (task.isSuccessful)
                 {
+                    mFireStore.collection(Constants.USERS)
+                        .document(getCurrentUserId()).collection(Constants.GARBAGE).document().set(garbage, SetOptions.merge())
                     Toast.makeText(activity,"Garbage added",Toast.LENGTH_SHORT).show()
                     updateTotalContribution()
                     updateWasteTypeData(garbage.type!!)
@@ -82,19 +82,17 @@ class FireStoreClass {
                 if (task.isSuccessful) {
                     val document: DocumentSnapshot = task.result
                     if (document.exists()) {
-                        val monthMap: HashMap<String,Double> = document.get("MonthData") as HashMap<String, Double>
-                        if (monthMap.containsKey(currentDate))
-                            monthMap[currentDate] = monthMap[currentDate]?.plus(value)!!
+                        val dataMap: HashMap<String,Double> = document.get("MonthData") as HashMap<String, Double>
+                        if (dataMap.containsKey(currentDate))
+                            dataMap[currentDate] = dataMap[currentDate]?.plus(value)!!
                         else
-                            monthMap.put(currentDate,value)
+                            dataMap[currentDate] = value
 
-                        monthDataRefer.update("MonthData",monthMap)
+                        monthDataRefer.update("MonthData",dataMap)
                     }
                 }
             }
-
         }
-
     }
 
     fun addYearData(value:Double)
@@ -107,13 +105,13 @@ class FireStoreClass {
                 if (task.isSuccessful) {
                     val document: DocumentSnapshot = task.result
                     if (document.exists()) {
-                        val monthMap: HashMap<String,Double> = document.get("YearData") as HashMap<String, Double>
-                        if (monthMap.containsKey(currentDate))
-                            monthMap[currentDate] = monthMap[currentDate]?.plus(value)!!
+                        val dataMap: HashMap<String,Double> = document.get("YearData") as HashMap<String, Double>
+                        if (dataMap.containsKey(currentDate))
+                            dataMap[currentDate] = dataMap[currentDate]?.plus(value)!!
                         else
-                            monthMap[currentDate] = value
+                            dataMap[currentDate] = value
 
-                        monthDataRefer.update("YearData",monthMap)
+                        monthDataRefer.update("YearData",dataMap)
                     }
                 }
             }
@@ -129,13 +127,12 @@ class FireStoreClass {
                 if (task.isSuccessful) {
                     val document: DocumentSnapshot = task.result
                     if (document.exists()) {
-                        val monthMap: HashMap<String,Double> = document.get("WeekData") as HashMap<String, Double>
-                        if (monthMap.containsKey(currentDate))
-                            monthMap[currentDate] = monthMap[currentDate]?.plus(value)!!
+                        val dataMap: HashMap<String,Double> = document.get("WeekData") as HashMap<String, Double>
+                        if (dataMap.containsKey(currentDate))
+                            dataMap[currentDate] = dataMap[currentDate]?.plus(value)!!
                         else
-                            monthMap[currentDate] = value
-
-                        monthDataRefer.update("WeekData",monthMap)
+                            dataMap[currentDate] = value
+                        monthDataRefer.update("WeekData",dataMap)
                     }
                 }
             }

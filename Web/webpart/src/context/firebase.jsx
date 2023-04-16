@@ -3,7 +3,7 @@ import React,{useContext,createContext, useState, useEffect} from 'react'
 import {getAuth,signInWithEmailAndPassword,onAuthStateChanged,signOut} from "firebase/auth"
 import {getFirestore} from "firebase/firestore"
 
-const firebasecontext= createContext(null);
+const firebasecontext = createContext(null);
 const firebaseConfig = {
     apiKey: "AIzaSyAWgCLVfRywJkGVQxQyCfFkBByNX-AX5O4",
     authDomain: "garbagelocator-41283.firebaseapp.com",
@@ -17,18 +17,18 @@ const firebaseConfig = {
   };
   export const useFirebase =() => useContext(firebasecontext);
 
-  export const FirebaseProvider = (props) => {
+export const FirebaseProvider = (props) => {
     const firebaseapp = initializeApp(firebaseConfig);
     const firebaseauth = getAuth(firebaseapp);
     const firebasestore = getFirestore(firebaseapp);
 
-    const [user,setUser] = useState(null);
+    const [user, setUser] = useState(null);
     useEffect(() => {
-        onAuthStateChanged(firebaseauth,user => {
-            if(user) setUser(user);
+        onAuthStateChanged(firebaseauth, user => {
+            if (user) setUser(user);
             else setUser(null);
         })
-    },[firebaseauth]);
+    }, [firebaseauth])
 
     const signin =(email,password) =>
     signInWithEmailAndPassword(firebaseauth,email,password);
@@ -40,4 +40,4 @@ const firebaseConfig = {
     return <firebasecontext.Provider value={{uid,firebaseapp,signin,isLoggedin,Logout,firebasestore}}>
         {props.children}
     </firebasecontext.Provider>
-  };
+};

@@ -1,15 +1,15 @@
 import React, { Component } from 'react'
 import "../Styles/aboutus.css"
-import group_image from './Assets/group_image.jpg';
-
+import group_image from './group_image.jpg';
+import Person from './Person'
  class Aboutus extends Component {
   render() {
     return (
       <div className="About_page">
         <h1> ABOUT-US</h1>
         <div className="About_us_section">
-        <div class="wriiten_About_us">
-        <section>
+        <div className="wriiten_About_us">
+        <div className='dummy_about'>
         Lorem Ipsum is simply dummy text of the printing and typesetting industry.
         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
         when an unknown printer took a galley of type and scrambled it to make a type
@@ -18,7 +18,7 @@ import group_image from './Assets/group_image.jpg';
         the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
         and more recently with desktop publishing software like Aldus PageMaker 
         including versions of Lorem Ipsum.
-        </section>
+        </div>
         </div>
         <div className="Group_image">
             <img src={group_image}/>
@@ -30,7 +30,7 @@ import group_image from './Assets/group_image.jpg';
         </div>
         
         <div className='Member_details'>
-    
+        <Person/>
         </div>
         </div>
      
