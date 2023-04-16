@@ -38,6 +38,9 @@ class MainActivity : AppCompatActivity() {
         binding?.btnSettings?.setOnClickListener {
             startActivity(Intent(this, SettingsActivity::class.java))
         }
+        binding?.fbAddGarbage?.setOnClickListener {
+            startActivity(Intent(this,AddGarbageActivity::class.java))
+        }
 
         createPieChart()
 
@@ -88,11 +91,11 @@ class MainActivity : AppCompatActivity() {
     {
         val dataRefer = FirebaseFirestore.getInstance().collection(Constants.CONSTANTS).document(Constants.WASTETYPEDATA)
         dataRefer.get().addOnSuccessListener {document->
-            //val generalWaste = document.get("generalWaste").toString().toFloat()
-            //val plasticWaste = document.get("plasticWaste").toString().toFloat()
+            val generalWaste = document.get("generalWaste").toString().toFloat()
+            val plasticWaste = document.get("plasticWaste").toString().toFloat()
             val pieChart: PieChart = findViewById(R.id.activity_main_pieChart)
             DrawPieChart.setupPieChart(pieChart)
-            DrawPieChart.loadPieChartData(pieChart, 9f,4f)
+            DrawPieChart.loadPieChartData(pieChart, generalWaste,plasticWaste)
         }
     }
 
