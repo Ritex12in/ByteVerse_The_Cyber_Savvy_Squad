@@ -1,15 +1,18 @@
 package com.example.trashtracker.firebase
 
+import android.util.Log
 import android.widget.Toast
 import com.example.trashtracker.activities.AddGarbageActivity
 import com.example.trashtracker.contants.Constants
 import com.example.trashtracker.models.Garbage
 import com.example.trashtracker.models.User
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.firestore.DocumentSnapshot
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.SetOptions
 import java.text.SimpleDateFormat
 import java.util.*
+import kotlin.collections.HashMap
 
 class FireStoreClass {
 
@@ -39,20 +42,20 @@ class FireStoreClass {
         }
     }
 
-    fun addGarbage(activity: AddGarbageActivity, garbage: Garbage)
+    fun addGarbage(activity:AddGarbageActivity ,garbage: Garbage)
     {
         mFireStore.collection(Constants.GARBAGE)
             .document().set(garbage, SetOptions.merge())
             .addOnCompleteListener{task->
                 if (task.isSuccessful)
                 {
-                    Toast.makeText(activity,"Garbage added", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(activity,"Garbage added",Toast.LENGTH_SHORT).show()
                     updateTotalContribution()
                     updateWasteTypeData(garbage.type!!)
                 }
                 else
                 {
-                    Toast.makeText(activity,"Failed to add, check network connection", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(activity,"Failed to add, check network connection",Toast.LENGTH_SHORT).show()
                 }
             }
     }
@@ -71,9 +74,71 @@ class FireStoreClass {
 
     fun addMonthData(value:Double)
     {
-        val sdf = SimpleDateFormat("MMM-yy")
+        val sdf = SimpleDateFormat("MM-yy")
         val currentDate = sdf.format(Date()).toString()
         val monthDataRefer = mFireStore.collection(Constants.CONSTANTS).document(Constants.MONTHWISEDATA)
-        monthDataRefer.update("MonthData", mapOf(currentDate to value))
+        monthDataRefer.get().addOnCompleteListener {task->
+            run {
+                if (task.isSuccessful) {
+                    val document: DocumentSnapshot = task.result
+                    if (document.exists()) {
+                        val monthMap: HashMap<String,Double> = document.get("MonthData") as HashMap<String, Double>
+                        if (monthMap.containsKey(currentDate))
+                            monthMap[currentDate] = monthMap[currentDate]?.plus(value)!!
+                        else
+                            monthMap.put(currentDate,value)
+
+                        monthDataRefer.update("MonthData",monthMap)
+                    }
+                }
+            }
+
+        }
+
+    }
+
+    fun addYearData(value:Double)
+    {
+        val sdf = SimpleDateFormat("yyyy")
+        val currentDate = sdf.format(Date()).toString()
+        val monthDataRefer = mFireStore.collection(Constants.CONSTANTS).document(Constants.YEARWISEDATA)
+        monthDataRefer.get().addOnCompleteListener {task->
+            run {
+                if (task.isSuccessful) {
+                    val document: DocumentSnapshot = task.result
+                    if (document.exists()) {
+                        val monthMap: HashMap<String,Double> = document.get("YearData") as HashMap<String, Double>
+                        if (monthMap.containsKey(currentDate))
+                            monthMap[currentDate] = monthMap[currentDate]?.plus(value)!!
+                        else
+                            monthMap[currentDate] = value
+
+                        monthDataRefer.update("YearData",monthMap)
+                    }
+                }
+            }
+        }
+    }
+    fun addWeekData(value:Double)
+    {
+        val sdf = SimpleDateFormat("dd-MM")
+        val currentDate = sdf.format(Date()).toString()
+        val monthDataRefer = mFireStore.collection(Constants.CONSTANTS).document(Constants.WEEKWISEDATA)
+        monthDataRefer.get().addOnCompleteListener {task->
+            run {
+                if (task.isSuccessful) {
+                    val document: DocumentSnapshot = task.result
+                    if (document.exists()) {
+                        val monthMap: HashMap<String,Double> = document.get("WeekData") as HashMap<String, Double>
+                        if (monthMap.containsKey(currentDate))
+                            monthMap[currentDate] = monthMap[currentDate]?.plus(value)!!
+                        else
+                            monthMap[currentDate] = value
+
+                        monthDataRefer.update("WeekData",monthMap)
+                    }
+                }
+            }
+        }
     }
 }

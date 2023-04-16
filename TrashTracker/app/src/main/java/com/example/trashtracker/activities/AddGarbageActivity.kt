@@ -45,6 +45,8 @@ class AddGarbageActivity : AppCompatActivity() {
             val garbage= Garbage(userId,selectedType,currentDate,selectedAmount,latitude,longitude)
             FireStoreClass().addGarbage(this,garbage)
             FireStoreClass().addMonthData(selectedAmount)
+            FireStoreClass().addYearData(selectedAmount)
+            FireStoreClass().addWeekData(selectedAmount)
         }
     }
 }
